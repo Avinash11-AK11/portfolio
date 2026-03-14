@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import CategoryCard from "./CategoryCard";
 import { categories } from "../data/certifications";
 import { Link } from "react-router-dom";
-import { Award, ArrowRight, Sparkles } from "lucide-react";
+import { Award, ArrowRight } from "lucide-react";
 
 function useInView(threshold = 0.15) {
   const ref = useRef(null);
