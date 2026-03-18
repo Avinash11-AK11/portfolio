@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import profileImage from '../assets/profile/image.jpeg';
 
 function Hero() {
 
@@ -107,7 +108,7 @@ function Hero() {
               <div className="relative w-full h-full rounded-[120px] overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.25)] transform transition duration-500 group-hover:scale-[1.05]">
 
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800"
+                  src={profileImage}
                   alt="Avinash"
                   className="w-full h-full object-cover"
                 />
