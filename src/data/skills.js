@@ -267,6 +267,38 @@ export const skillsData = [
     description: "Sprint-based development, standups, retrospectives, and team workflows",
     icon: "⚙️",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop"
+  },
+
+  // From Coding Interview Preparation & iOS Developer Certificate
+  {
+    id: 26,
+    category: "Others",
+    name: "Data Structures & Algorithms",
+    level: "Intermediate",
+    proficiency: 75,
+    description: "Arrays, linked lists, trees, graphs, sorting, searching, dynamic programming, and algorithm complexity analysis",
+    icon: "🧮",
+    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop"
+  },
+  {
+    id: 27,
+    category: "Others",
+    name: "Competitive Programming",
+    level: "Intermediate",
+    proficiency: 72,
+    description: "Problem-solving under time constraints, coding interview techniques, white boarding, and system design patterns",
+    icon: "🏆",
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop"
+  },
+  {
+    id: 28,
+    category: "App Development",
+    name: "iOS Professional Development",
+    level: "Intermediate",
+    proficiency: 79,
+    description: "Complete iOS development with Swift, SwiftUI, UIKit, Core Data, REST APIs, and production-grade app architecture",
+    icon: "📱",
+    image: "https://images.unsplash.com/photo-1512941691920-25bda36ae95d?w=400&h=300&fit=crop"
   }
 ];
 
@@ -283,7 +315,7 @@ export const skillCategories = [
     name: "App Development",
     icon: "📱",
     color: "from-[#8B5736] to-[#7A4F2F]",
-    count: 8,
+    count: 9,
   },
   {
     id: "data-analysis",
@@ -297,6 +329,6 @@ export const skillCategories = [
     name: "Others",
     icon: "⚙️",
     color: "from-[#6F4A2D] to-[#5F3A20]",
-    count: 4,
+    count: 6,
   }
 ];

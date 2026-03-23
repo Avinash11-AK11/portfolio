@@ -45,6 +45,8 @@ import stellerNetImg from "../assets/certification/other/hackathon/StellerNet.jp
 import frontendBattleImg from "../assets/certification/other/hackathon/frontend_battel.jpg";
 import opencodeImg from "../assets/certification/other/hackathon/opencode.jpg";
 import suprathonNationalImg from "../assets/certification/other/hackathon/suprathon.jpg";
+import codingInterviewPrepImg from "../assets/certification/app_development/course_completion/Coding_Interview_Preparation.jpg";
+import metaIOSDeveloperProImg from "../assets/certification/app_development/course_completion/Meta_iOS_App_Development_Professional_Certificate.jpg";
 
 export const certificationsData = [
   /* ================= DATA ANALYSIS ================= */
@@ -663,614 +665,712 @@ export const certificationsData = [
   /* ================= APP DEVELOPMENT ================= */
 
   {
-    id: 40,
-    category: "App Development",
-    title: "Advanced Programming in Swift",
-    organization: "Meta (via Coursera)",
-    date: "Dec 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's Advanced Programming in Swift course, covering advanced Swift language features, protocol-oriented programming, generics, concurrency, and professional iOS development patterns.",
-    longDescription:
-      "Advanced Programming in Swift is an advanced course authorised by Meta and offered through Coursera as part of the Meta iOS Developer programme. This course went beyond Swift fundamentals to explore the language's most powerful features — protocol-oriented programming, generics, closures, advanced error handling, and the modern Swift concurrency model (async/await, structured concurrency). The programme emphasised writing clean, efficient, and highly testable Swift code that follows Apple's best practices and industry-level coding standards. Completing this course significantly elevated my ability to architect and implement production-quality iOS applications.",
-    credentialUrl: "https://coursera.org/verify/GWLOQE02XBM0",
-    badge: "🍎",
-    image: advancedSwiftImg,
-    skills: [
-      "Swift (Advanced)",
-      "Protocol-Oriented Programming",
-      "Generics",
-      "Closures & Higher-Order Functions",
-      "Swift Concurrency (async/await)",
-      "Error Handling",
-      "Memory Management (ARC)",
-      "Unit Testing in Swift",
-    ],
-    whatILearned: [
-      "Applied protocol-oriented programming to design flexible, composable, and testable Swift architectures",
-      "Used generics to write reusable, type-safe code across multiple data types and contexts",
-      "Mastered closures, higher-order functions, and functional programming patterns in Swift",
-      "Implemented modern Swift concurrency using async/await, Task groups, and structured concurrency",
-      "Applied advanced error handling patterns including typed throws and Result types",
-      "Understood ARC (Automatic Reference Counting) and resolved retain cycle issues using weak/unowned references",
-    ],
-    projectsBuilt: [
-      {
-        title: "Protocol-Oriented Networking Layer",
-        description:
-          "Designed and built a reusable, protocol-oriented networking layer in Swift using generics and async/await, enabling type-safe API calls with minimal boilerplate across an iOS application.",
-      },
-      {
-        title: "Concurrent Image Downloader",
-        description:
-          "Implemented an image downloading and caching utility using Swift's structured concurrency model, handling parallel downloads, cancellation, and memory-efficient caching.",
-      },
-    ],
-  },
+  id: 40,
+  category: "App Development",
+  title: "Advanced Programming in Swift",
+  organization: "Meta (via Coursera)",
+  date: "Dec 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s Advanced Programming in Swift course, focusing on advanced Swift language features, protocol-oriented programming, generics, concurrency, and industry-standard iOS development practices.",
+  longDescription:
+    "Advanced Programming in Swift is an advanced-level course authorized by Meta and delivered through Coursera as part of the Meta iOS Developer Program. This course extends beyond Swift fundamentals, covering advanced concepts such as protocol-oriented programming, generics, closures, advanced error handling, and modern Swift concurrency (async/await and structured concurrency). The program emphasizes writing clean, efficient, and highly maintainable code aligned with Apple’s best practices and industry standards. Completing this course significantly strengthened my ability to design, architect, and build production-quality iOS applications.",
+  credentialUrl: "https://coursera.org/verify/GWLOQE02XBM0",
+  badge: "🍎",
+  image: advancedSwiftImg,
+  skills: [
+    "Swift (Advanced)",
+    "Protocol-Oriented Programming",
+    "Generics",
+    "Closures & Higher-Order Functions",
+    "Swift Concurrency (async/await)",
+    "Error Handling",
+    "Memory Management (ARC)",
+    "Unit Testing in Swift",
+  ],
+  whatILearned: [
+    "Designed flexible, scalable, and testable architectures using protocol-oriented programming",
+    "Developed reusable and type-safe code using generics across multiple use cases",
+    "Applied closures, higher-order functions, and functional programming paradigms effectively",
+    "Implemented modern concurrency using async/await, Task groups, and structured concurrency",
+    "Handled errors robustly using advanced techniques such as Result types and structured error handling",
+    "Optimized memory management using ARC and resolved retain cycles with weak and unowned references",
+  ],
+  projectsBuilt: [
+    {
+      title: "Protocol-Oriented Networking Layer",
+      description:
+        "Designed and implemented a reusable, protocol-oriented networking layer in Swift using generics and async/await, enabling scalable and type-safe API integrations with minimal boilerplate.",
+    },
+    {
+      title: "Concurrent Image Downloader",
+      description:
+        "Built an efficient image downloading and caching system using Swift’s structured concurrency, supporting parallel downloads, task cancellation, and optimized memory usage.",
+    },
+  ],
+},
 
   {
-    id: 41,
-    category: "App Development",
-    title: "Create the User Interface with SwiftUI",
-    organization: "Meta (via Coursera)",
-    date: "Dec 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's Create the User Interface with SwiftUI course, covering declarative UI development, SwiftUI views, layouts, navigation, animations, and building responsive iOS interfaces.",
-    longDescription:
-      "Create the User Interface with SwiftUI is an advanced course authorised by Meta and offered through Coursera as part of the Meta iOS Developer programme. This course provided comprehensive training in Apple's modern declarative UI framework — SwiftUI. Topics included building custom views and modifiers, mastering layout systems (stacks, grids, geometry reader), implementing navigation patterns, creating fluid animations and transitions, managing state with @State, @Binding, @ObservedObject, and @EnvironmentObject, and designing adaptive interfaces that work across iPhone and iPad. The course emphasised building polished, production-ready user interfaces following Apple's Human Interface Guidelines.",
-    credentialUrl: "https://coursera.org/verify/LI96LKANUVQ1",
-    badge: "🎨",
-    image: createUISwiftUIImg,
-    skills: [
-      "SwiftUI",
-      "Declarative UI Development",
-      "View Composition",
-      "Layout Systems (Stacks, Grids)",
-      "Navigation & Routing",
-      "Animations & Transitions",
-      "State Management (@State, @Binding, @ObservedObject)",
-      "Human Interface Guidelines",
-    ],
-    whatILearned: [
-      "Built complex, responsive iOS interfaces using SwiftUI's declarative syntax and composition model",
-      "Mastered SwiftUI layout systems including HStack, VStack, ZStack, LazyGrid, and GeometryReader",
-      "Implemented navigation flows using NavigationStack, sheets, and programmatic navigation",
-      "Created smooth animations and transitions using SwiftUI's built-in animation APIs",
-      "Managed UI state effectively with @State, @Binding, @ObservedObject, and @EnvironmentObject property wrappers",
-      "Designed adaptive layouts that respond to different screen sizes and device orientations",
-    ],
-    projectsBuilt: [
-      {
-        title: "Restaurant Menu App",
-        description:
-          "Built a fully functional restaurant menu browsing app with SwiftUI, featuring categorised menu items, detailed views, a cart system, and smooth navigation transitions.",
-      },
-      {
-        title: "Adaptive Dashboard Interface",
-        description:
-          "Designed and implemented a responsive dashboard UI using SwiftUI grids and geometry reader, adapting seamlessly between iPhone and iPad layouts with animated state changes.",
-      },
-    ],
-  },
+  id: 41,
+  category: "App Development",
+  title: "Create the User Interface with SwiftUI",
+  organization: "Meta (via Coursera)",
+  date: "Dec 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s Create the User Interface with SwiftUI course, focusing on declarative UI development, SwiftUI view composition, layout systems, navigation, animations, and building responsive iOS interfaces.",
+  longDescription:
+    "Create the User Interface with SwiftUI is an advanced-level course authorized by Meta and delivered through Coursera as part of the Meta iOS Developer Program. This course provides in-depth training in Apple’s modern declarative UI framework, SwiftUI. It covers building custom views and reusable modifiers, mastering layout systems (stacks, grids, and GeometryReader), implementing robust navigation patterns, and creating smooth animations and transitions. The course also focuses on effective state management using property wrappers such as @State, @Binding, @ObservedObject, and @EnvironmentObject. Emphasis is placed on designing adaptive, scalable, and production-ready interfaces that align with Apple’s Human Interface Guidelines across multiple devices, including iPhone and iPad.",
+  credentialUrl: "https://coursera.org/verify/LI96LKANUVQ1",
+  badge: "🎨",
+  image: createUISwiftUIImg,
+  skills: [
+    "SwiftUI",
+    "Declarative UI Development",
+    "View Composition",
+    "Layout Systems (Stacks, Grids)",
+    "Navigation & Routing",
+    "Animations & Transitions",
+    "State Management (@State, @Binding, @ObservedObject)",
+    "Human Interface Guidelines",
+  ],
+  whatILearned: [
+    "Developed complex and responsive iOS interfaces using SwiftUI’s declarative and compositional approach",
+    "Mastered layout systems including HStack, VStack, ZStack, LazyGrid, and GeometryReader for flexible UI design",
+    "Implemented seamless navigation flows using NavigationStack, sheets, and programmatic navigation techniques",
+    "Created fluid animations and transitions using SwiftUI’s animation APIs",
+    "Managed application state effectively using @State, @Binding, @ObservedObject, and @EnvironmentObject",
+    "Designed adaptive interfaces that scale across different screen sizes and device orientations",
+  ],
+  projectsBuilt: [
+    {
+      title: "Restaurant Menu App",
+      description:
+        "Developed a fully functional restaurant menu application using SwiftUI, featuring categorized menu items, detailed views, cart functionality, and smooth navigation transitions.",
+    },
+    {
+      title: "Adaptive Dashboard Interface",
+      description:
+        "Designed and implemented a responsive dashboard interface using SwiftUI grids and GeometryReader, enabling seamless adaptation between iPhone and iPad layouts with animated state transitions.",
+    },
+  ],
+},
 
   {
-    id: 42,
-    category: "App Development",
-    title: "Introduction to iOS Mobile Application Development",
-    organization: "Meta (via Coursera)",
-    date: "Nov 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's Introduction to iOS Mobile Application Development course, covering the iOS ecosystem, Xcode, Swift basics, app lifecycle, and foundational concepts for building iOS apps.",
-    longDescription:
-      "Introduction to iOS Mobile Application Development is a foundational course authorised by Meta and offered through Coursera as part of the Meta iOS Developer programme. This course provided a comprehensive introduction to the iOS development ecosystem — from setting up Xcode and understanding the project structure, to writing Swift code, working with Interface Builder and SwiftUI previews, understanding the app lifecycle, and deploying apps to the iOS Simulator. The course also covered key concepts such as MVC architecture, Auto Layout basics, asset management, and an overview of Apple's development tools and frameworks. It established the essential groundwork for building professional iOS applications.",
-    credentialUrl: "https://coursera.org/verify/SL9O2T7Z4TXX",
-    badge: "📱",
-    image: introIOSMobileAppImg,
-    skills: [
-      "iOS Development Fundamentals",
-      "Xcode",
-      "Swift Basics",
-      "App Lifecycle",
-      "MVC Architecture",
-      "Interface Builder",
-      "iOS Simulator",
-      "Auto Layout",
-    ],
-    whatILearned: [
-      "Set up and navigated the Xcode development environment for iOS app projects",
-      "Understood the iOS app lifecycle and how apps are structured using MVC architecture",
-      "Wrote foundational Swift code including variables, control flow, functions, and data types",
-      "Built simple user interfaces using Interface Builder and previewed them with SwiftUI",
-      "Managed app assets, configured project settings, and ran apps on the iOS Simulator",
-      "Gained an overview of Apple's development frameworks including UIKit and SwiftUI",
-    ],
-    projectsBuilt: [
-      {
-        title: "Hello World iOS App",
-        description:
-          "Built a first iOS application from scratch in Xcode, configuring the project structure, designing a simple UI, and running it on the iOS Simulator.",
-      },
-      {
-        title: "Profile Card App",
-        description:
-          "Created a profile card app demonstrating basic UI layout with labels, images, and stack views, applying Auto Layout constraints for responsive design.",
-      },
-    ],
-  },
+  id: 42,
+  category: "App Development",
+  title: "Introduction to iOS Mobile Application Development",
+  organization: "Meta (via Coursera)",
+  date: "Nov 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s Introduction to iOS Mobile Application Development course, covering the iOS ecosystem, Xcode environment, Swift fundamentals, app lifecycle, and core concepts for building iOS applications.",
+  longDescription:
+    "Introduction to iOS Mobile Application Development is a foundational course authorized by Meta and delivered through Coursera as part of the Meta iOS Developer Program. This course provides a comprehensive introduction to the iOS development ecosystem—from setting up and navigating Xcode to understanding project structure, writing Swift code, and building user interfaces using Interface Builder and SwiftUI previews. It covers essential concepts such as the iOS app lifecycle, MVC architecture, Auto Layout fundamentals, asset management, and app deployment using the iOS Simulator. The course also introduces key Apple frameworks, including UIKit and SwiftUI, establishing a strong foundation for developing scalable and professional iOS applications.",
+  credentialUrl: "https://coursera.org/verify/SL9O2T7Z4TXX",
+  badge: "📱",
+  image: introIOSMobileAppImg,
+  skills: [
+    "iOS Development Fundamentals",
+    "Xcode",
+    "Swift Basics",
+    "App Lifecycle",
+    "MVC Architecture",
+    "Interface Builder",
+    "iOS Simulator",
+    "Auto Layout",
+  ],
+  whatILearned: [
+    "Configured and navigated the Xcode development environment for iOS application development",
+    "Understood the iOS application lifecycle and structured apps using MVC architecture",
+    "Developed foundational Swift programming skills including variables, control flow, functions, and data types",
+    "Built user interfaces using Interface Builder and explored SwiftUI previews for rapid UI iteration",
+    "Managed project assets, configured build settings, and executed apps on the iOS Simulator",
+    "Gained foundational knowledge of Apple frameworks including UIKit and SwiftUI",
+  ],
+  projectsBuilt: [
+    {
+      title: "Hello World iOS App",
+      description:
+        "Developed a basic iOS application in Xcode, configuring project structure, designing a simple interface, and deploying it on the iOS Simulator.",
+    },
+    {
+      title: "Profile Card App",
+      description:
+        "Created a profile card application demonstrating UI layout with labels, images, and stack views, applying Auto Layout constraints for responsive design.",
+    },
+  ],
+},
 
   {
-    id: 43,
-    category: "App Development",
-    title: "Meta iOS UI Development Specialization",
-    organization: "Meta (via Coursera)",
-    date: "Dec 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed the Meta iOS UI Development Specialization comprising 4 courses, covering iOS fundamentals, Swift programming, SwiftUI, and advanced Swift — building expertise in creating stunning iOS user interfaces.",
-    longDescription:
-      "The Meta iOS UI Development Specialization is a comprehensive 4-course programme authorised by Meta and offered through Coursera. This specialization covered the full journey from iOS fundamentals to advanced UI development: Introduction to iOS Mobile Application Development, Programming Fundamentals in Swift, Create the User Interface with SwiftUI, and Advanced Programming in Swift. Through videos, hands-on exercises, and assessments, the programme built mastery of the iOS development environment, Swift programming basics and advanced features, and both UIKit and SwiftUI frameworks. Upon completion, I gained the skills to build beautiful, responsive user interfaces and create rich, functional, and visually impressive iOS mobile experiences.",
-    credentialUrl: "https://coursera.org/verify/specialization/TURGZKOR6KDM",
-    badge: "🏆",
-    image: metaIOSUIDevImg,
-    skills: [
-      "iOS Development",
-      "Swift",
-      "SwiftUI",
-      "UIKit",
-      "Xcode",
-      "Protocol-Oriented Programming",
-      "Declarative UI Development",
-      "App Lifecycle & Architecture",
-    ],
-    whatILearned: [
-      "Mastered the complete iOS UI development pipeline from fundamentals through advanced Swift and SwiftUI",
-      "Built beautiful, responsive user interfaces using both UIKit and SwiftUI frameworks",
-      "Applied advanced Swift features including generics, protocol-oriented programming, and concurrency",
-      "Designed adaptive layouts and smooth animations following Apple's Human Interface Guidelines",
-      "Managed application state effectively using SwiftUI property wrappers and modern patterns",
-      "Developed a professional-level understanding of the iOS ecosystem and development toolchain",
-    ],
-    projectsBuilt: [
-      {
-        title: "Complete iOS App with SwiftUI",
-        description:
-          "Built a full-featured iOS application combining all specialization skills — advanced Swift code, SwiftUI declarative interfaces, navigation, animations, and responsive layouts.",
-      },
-      {
-        title: "UIKit to SwiftUI Migration Project",
-        description:
-          "Practiced migrating a UIKit-based interface to SwiftUI, applying modern declarative patterns while preserving functionality and improving code maintainability.",
-      },
-    ],
-  },
+  id: 43,
+  category: "App Development",
+  title: "Meta iOS UI Development Specialization",
+  organization: "Meta (via Coursera)",
+  date: "Dec 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed the Meta iOS UI Development Specialization, a 4-course program covering iOS fundamentals, Swift programming, SwiftUI, and advanced Swift concepts, with a focus on building high-quality and responsive iOS user interfaces.",
+  longDescription:
+    "The Meta iOS UI Development Specialization is a comprehensive four-course program authorized by Meta and delivered through Coursera. This specialization spans the full iOS UI development journey, including Introduction to iOS Mobile Application Development, Programming Fundamentals in Swift, Create the User Interface with SwiftUI, and Advanced Programming in Swift. Through a combination of video lectures, hands-on exercises, and practical assessments, the program builds strong proficiency in the iOS development environment, Swift programming (from fundamentals to advanced concepts), and both UIKit and SwiftUI frameworks. It emphasizes designing and developing scalable, responsive, and visually polished user interfaces aligned with Apple’s Human Interface Guidelines. Upon completion, I developed the capability to architect and implement production-ready iOS applications with modern UI practices.",
+  credentialUrl: "https://coursera.org/verify/specialization/TURGZKOR6KDM",
+  badge: "🏆",
+  image: metaIOSUIDevImg,
+  skills: [
+    "iOS Development",
+    "Swift",
+    "SwiftUI",
+    "UIKit",
+    "Xcode",
+    "Protocol-Oriented Programming",
+    "Declarative UI Development",
+    "App Lifecycle & Architecture",
+  ],
+  whatILearned: [
+    "Developed end-to-end expertise in iOS UI development, from foundational concepts to advanced Swift and SwiftUI",
+    "Built scalable and responsive user interfaces using both UIKit and SwiftUI frameworks",
+    "Applied advanced Swift concepts including generics, protocol-oriented programming, and concurrency",
+    "Designed adaptive layouts and fluid animations aligned with Apple’s Human Interface Guidelines",
+    "Managed application state effectively using SwiftUI property wrappers and modern architectural patterns",
+    "Strengthened understanding of the iOS ecosystem, tooling, and production-level development workflows",
+  ],
+  projectsBuilt: [
+    {
+      title: "Complete iOS App with SwiftUI",
+      description:
+        "Developed a full-featured iOS application integrating advanced Swift concepts with SwiftUI-based declarative interfaces, including navigation, animations, and responsive layouts.",
+    },
+    {
+      title: "UIKit to SwiftUI Migration Project",
+      description:
+        "Refactored a UIKit-based interface into SwiftUI, applying modern declarative patterns to improve maintainability, scalability, and overall code quality.",
+    },
+  ],
+},
 
   {
-    id: 44,
-    category: "App Development",
-    title: "Mobile Development and JavaScript",
-    organization: "Meta (via Coursera)",
-    date: "Dec 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's Mobile Development and JavaScript course, covering JavaScript fundamentals for mobile development, React Native basics, and cross-platform app development concepts.",
-    longDescription:
-      "Mobile Development and JavaScript is a course authorised by Meta and offered through Coursera as part of the Meta React Native Specialization. This course bridged JavaScript fundamentals with mobile development, covering core JavaScript concepts essential for React Native — including ES6+ syntax, asynchronous programming (Promises, async/await), modules, and the JavaScript runtime environment. It also introduced mobile development paradigms, the differences between web and mobile development, and how JavaScript powers cross-platform mobile applications through frameworks like React Native. The course established a strong foundation for building mobile apps using JavaScript-based technologies.",
-    credentialUrl: "https://coursera.org/verify/WYFOL90D5U1I",
-    badge: "📱",
-    image: mobileDevJSImg,
-    skills: [
-      "JavaScript (ES6+)",
-      "Mobile Development Concepts",
-      "Asynchronous Programming",
-      "Promises & async/await",
-      "Modules & Bundling",
-      "React Native Basics",
-      "Cross-Platform Development",
-      "JavaScript Runtime",
-    ],
-    whatILearned: [
-      "Mastered JavaScript ES6+ features essential for mobile development including arrow functions, destructuring, and spread operators",
-      "Implemented asynchronous programming patterns using Promises, async/await, and callback handling",
-      "Understood the differences between web and mobile development paradigms and how JavaScript bridges both",
-      "Learned module systems and how JavaScript code is structured for mobile app development",
-      "Gained foundational knowledge of React Native and how it uses JavaScript to build native mobile apps",
-      "Applied JavaScript concepts in mobile-specific contexts including device APIs and platform considerations",
-    ],
-    projectsBuilt: [
-      {
-        title: "Cross-Platform Task Manager",
-        description:
-          "Built a task management app using JavaScript and React Native fundamentals, implementing CRUD operations, async data persistence, and a responsive mobile-first interface.",
-      },
-      {
-        title: "API-Driven Mobile Feed",
-        description:
-          "Created a mobile feed application that fetches data from REST APIs using async/await, displays content in scrollable lists, and handles loading states and error scenarios.",
-      },
-    ],
-  },
+  id: 44,
+  category: "App Development",
+  title: "Mobile Development and JavaScript",
+  organization: "Meta (via Coursera)",
+  date: "Dec 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s Mobile Development and JavaScript course, focusing on JavaScript fundamentals for mobile development, React Native basics, and cross-platform application development concepts.",
+  longDescription:
+    "Mobile Development and JavaScript is a course authorized by Meta and delivered through Coursera as part of the Meta React Native Specialization. This course bridges core JavaScript fundamentals with modern mobile development practices, covering ES6+ features, asynchronous programming (Promises and async/await), modular code structure, and the JavaScript runtime environment. It introduces key mobile development concepts, highlights the differences between web and mobile paradigms, and demonstrates how JavaScript enables cross-platform mobile application development through frameworks such as React Native. The course establishes a strong foundation for building scalable, maintainable, and performant mobile applications using JavaScript-based technologies.",
+  credentialUrl: "https://coursera.org/verify/WYFOL90D5U1I",
+  badge: "📱",
+  image: mobileDevJSImg,
+  skills: [
+    "JavaScript (ES6+)",
+    "Mobile Development Concepts",
+    "Asynchronous Programming",
+    "Promises & async/await",
+    "Modules & Bundling",
+    "React Native Basics",
+    "Cross-Platform Development",
+    "JavaScript Runtime",
+  ],
+  whatILearned: [
+    "Applied modern JavaScript (ES6+) features including arrow functions, destructuring, and spread/rest operators in mobile development contexts",
+    "Implemented asynchronous workflows using Promises, async/await, and effective error handling strategies",
+    "Understood key differences between web and mobile development paradigms and how JavaScript bridges them",
+    "Structured modular and maintainable JavaScript code for scalable mobile applications",
+    "Gained foundational experience with React Native and its role in building native mobile apps using JavaScript",
+    "Applied JavaScript concepts to mobile-specific use cases, including API integration and platform considerations",
+  ],
+  projectsBuilt: [
+    {
+      title: "Cross-Platform Task Manager",
+      description:
+        "Developed a task management application using JavaScript and React Native fundamentals, implementing CRUD operations, asynchronous data persistence, and a responsive mobile-first interface.",
+    },
+    {
+      title: "API-Driven Mobile Feed",
+      description:
+        "Built a mobile feed application that consumes REST APIs using async/await, renders dynamic content in scrollable lists, and handles loading states and error scenarios efficiently.",
+    },
+  ],
+},
 
   {
-    id: 45,
-    category: "App Development",
-    title: "Principles of UX/UI Design",
-    organization: "Meta (via Coursera)",
-    date: "Dec 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's Principles of UX/UI Design course, covering user experience research, UI design fundamentals, wireframing, prototyping, and design systems for mobile applications.",
-    longDescription:
-      "Principles of UX/UI Design is a course authorised by Meta and offered through Coursera as part of the Meta React Native Specialization. This course covered the full spectrum of UX/UI design principles essential for building user-centred mobile applications. Topics included UX research methodologies (user personas, journey mapping, usability testing), UI design fundamentals (typography, colour theory, visual hierarchy, spacing), wireframing and prototyping using industry tools, design systems and component libraries, accessibility standards, and responsive design patterns. The course emphasised a design-thinking approach — understanding user needs first, then crafting interfaces that are intuitive, accessible, and visually compelling.",
-    credentialUrl: "https://coursera.org/verify/OSBJG3MRXWCD",
-    badge: "🎨",
-    image: principlesUXUIImg,
-    skills: [
-      "UX Research",
-      "UI Design",
-      "Wireframing",
-      "Prototyping",
-      "Design Systems",
-      "Accessibility (a11y)",
-      "Visual Hierarchy",
-      "User-Centred Design",
-    ],
-    whatILearned: [
-      "Applied UX research methods including user personas, journey mapping, and usability testing to inform design decisions",
-      "Mastered UI design fundamentals including typography, colour theory, spacing, and visual hierarchy",
-      "Created wireframes and interactive prototypes to validate design concepts before development",
-      "Designed reusable component libraries and design systems for consistent mobile interfaces",
-      "Implemented accessibility best practices to ensure inclusive design for all users",
-      "Applied design-thinking methodology to solve real user problems through iterative design",
-    ],
-    projectsBuilt: [
-      {
-        title: "Mobile App Redesign Case Study",
-        description:
-          "Conducted a full UX redesign of a mobile application — from user research and persona creation through wireframing, prototyping, and usability testing with iterative improvements.",
-      },
-      {
-        title: "Design System & Component Library",
-        description:
-          "Created a comprehensive mobile design system with reusable UI components, typography scales, colour palettes, and spacing tokens for consistent cross-screen design.",
-      },
-    ],
-  },
+  id: 45,
+  category: "App Development",
+  title: "Principles of UX/UI Design",
+  organization: "Meta (via Coursera)",
+  date: "Dec 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s Principles of UX/UI Design course, focusing on user experience research, UI design fundamentals, wireframing, prototyping, and design systems for mobile applications.",
+  longDescription:
+    "Principles of UX/UI Design is a course authorized by Meta and delivered through Coursera as part of the Meta React Native Specialization. This course provides a comprehensive foundation in UX/UI design for user-centered mobile applications. It covers UX research methodologies such as user personas, journey mapping, and usability testing, alongside core UI design principles including typography, color theory, visual hierarchy, and spacing. The course also explores wireframing and prototyping using industry-standard tools, as well as the creation of scalable design systems and component libraries. Additional focus is given to accessibility (a11y) standards and responsive design patterns. Emphasizing a design-thinking approach, the course trains developers to deeply understand user needs and translate them into intuitive, accessible, and visually compelling interfaces.",
+  credentialUrl: "https://coursera.org/verify/OSBJG3MRXWCD",
+  badge: "🎨",
+  image: principlesUXUIImg,
+  skills: [
+    "UX Research",
+    "UI Design",
+    "Wireframing",
+    "Prototyping",
+    "Design Systems",
+    "Accessibility (a11y)",
+    "Visual Hierarchy",
+    "User-Centered Design",
+  ],
+  whatILearned: [
+    "Applied UX research techniques including user personas, journey mapping, and usability testing to drive design decisions",
+    "Mastered UI design principles such as typography, color theory, spacing, and visual hierarchy",
+    "Created wireframes and interactive prototypes to validate and iterate on design concepts",
+    "Designed scalable design systems and reusable component libraries for consistent interfaces",
+    "Implemented accessibility best practices to ensure inclusive and user-friendly experiences",
+    "Applied design-thinking methodologies to solve real-world user problems through iterative design",
+  ],
+  projectsBuilt: [
+    {
+      title: "Mobile App Redesign Case Study",
+      description:
+        "Conducted an end-to-end UX redesign of a mobile application, including user research, persona development, wireframing, prototyping, and usability testing with iterative improvements.",
+    },
+    {
+      title: "Design System & Component Library",
+      description:
+        "Developed a comprehensive mobile design system with reusable UI components, typography scales, color palettes, and spacing tokens to ensure consistency across screens.",
+    },
+  ],
+},
 
   {
-    id: 46,
-    category: "App Development",
-    title: "Programming Fundamentals in Swift",
-    organization: "Meta (via Coursera)",
-    date: "Dec 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's Programming Fundamentals in Swift course, covering Swift syntax, data types, control flow, functions, optionals, collections, structures, classes, and object-oriented programming.",
-    longDescription:
-      "Programming Fundamentals in Swift is a foundational course authorised by Meta and offered through Coursera as part of the Meta iOS Developer programme. This course provided a thorough grounding in the Swift programming language — from basic syntax, variables, and data types through to control flow (if/else, switch, loops), functions and closures, optionals and optional chaining, collections (arrays, dictionaries, sets), structures and classes, protocols, enumerations, and the fundamentals of object-oriented programming in Swift. The course emphasised writing clean, safe, and idiomatic Swift code with a strong focus on Swift's type safety, value vs reference semantics, and error handling patterns.",
-    credentialUrl: "https://coursera.org/verify/DUI8U1H2QSKF",
-    badge: "🐦",
-    image: progFundamentalsSwiftImg,
-    skills: [
-      "Swift Programming",
-      "Data Types & Variables",
-      "Control Flow",
-      "Functions & Closures",
-      "Optionals",
-      "Collections (Arrays, Dictionaries, Sets)",
-      "Structures & Classes",
-      "Object-Oriented Programming",
-    ],
-    whatILearned: [
-      "Wrote clean, type-safe Swift code using variables, constants, data types, and operators",
-      "Implemented control flow logic with if/else, switch statements, and various loop constructs",
-      "Created reusable functions and closures, understanding parameter labels, return types, and higher-order functions",
-      "Mastered Swift optionals, optional binding, optional chaining, and nil-coalescing for safe value handling",
-      "Worked with collections including arrays, dictionaries, and sets for data management",
-      "Applied object-oriented programming principles using structures, classes, protocols, and enumerations",
-    ],
-    projectsBuilt: [
-      {
-        title: "Swift Playground Exercises",
-        description:
-          "Completed a series of progressively complex Swift playground exercises covering data types, control flow, functions, optionals, and OOP — building a solid foundation in Swift programming.",
-      },
-      {
-        title: "Student Grade Tracker",
-        description:
-          "Built a command-line student grade tracking system in Swift using structures, protocols, and collections to manage student records, calculate averages, and generate reports.",
-      },
-    ],
-  },
+  id: 46,
+  category: "App Development",
+  title: "Programming Fundamentals in Swift",
+  organization: "Meta (via Coursera)",
+  date: "Dec 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s Programming Fundamentals in Swift course, covering core Swift syntax, data types, control flow, functions, optionals, collections, and object-oriented programming concepts.",
+  longDescription:
+    "Programming Fundamentals in Swift is a foundational course authorized by Meta and delivered through Coursera as part of the Meta iOS Developer Program. This course provides a comprehensive introduction to the Swift programming language, covering core concepts such as syntax, variables, and data types, along with control flow constructs (if/else, switch, and loops). It also explores functions and closures, optionals and optional chaining, collections (arrays, dictionaries, and sets), as well as structures, classes, protocols, and enumerations. The course emphasizes writing clean, safe, and idiomatic Swift code, with a strong focus on type safety, value vs. reference semantics, and robust error handling practices.",
+  credentialUrl: "https://coursera.org/verify/DUI8U1H2QSKF",
+  badge: "🐦",
+  image: progFundamentalsSwiftImg,
+  skills: [
+    "Swift Programming",
+    "Data Types & Variables",
+    "Control Flow",
+    "Functions & Closures",
+    "Optionals",
+    "Collections (Arrays, Dictionaries, Sets)",
+    "Structures & Classes",
+    "Object-Oriented Programming",
+  ],
+  whatILearned: [
+    "Developed clean and type-safe Swift code using variables, constants, data types, and operators",
+    "Implemented control flow using if/else statements, switch cases, and iterative loops",
+    "Built reusable functions and closures, understanding parameter labeling, return types, and higher-order functions",
+    "Mastered optionals, including optional binding, optional chaining, and nil-coalescing for safe data handling",
+    "Utilized collections such as arrays, dictionaries, and sets for efficient data management",
+    "Applied object-oriented programming principles using structures, classes, protocols, and enumerations",
+  ],
+  projectsBuilt: [
+    {
+      title: "Swift Playground Exercises",
+      description:
+        "Completed a series of progressively complex Swift playground exercises covering data types, control flow, functions, optionals, and object-oriented programming concepts.",
+    },
+    {
+      title: "Student Grade Tracker",
+      description:
+        "Developed a command-line student grade tracking system in Swift using structures, protocols, and collections to manage records, calculate averages, and generate reports.",
+    },
+  ],
+},
 
   {
-    id: 47,
-    category: "App Development",
-    title: "React Basics",
-    organization: "Meta (via Coursera)",
-    date: "Jan 2026",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's React Basics course, covering React components, JSX, props, state, event handling, and building dynamic single-page applications with React.",
-    longDescription:
-      "React Basics is a foundational course authorised by Meta and offered through Coursera as part of the Meta React Native Specialization. This course provided a comprehensive introduction to React — the JavaScript library for building user interfaces. Topics included understanding the virtual DOM, creating functional components with JSX, passing data with props, managing component state with useState, handling user events, conditional rendering, list rendering with keys, and composing components to build complete single-page applications. The course established the essential React knowledge needed for progressing to React Native mobile development.",
-    credentialUrl: "https://coursera.org/verify/KTA1XEUIAWBI",
-    badge: "⚛️",
-    image: reactBasicsImg,
-    skills: [
-      "React",
-      "JSX",
-      "Components & Props",
-      "State Management (useState)",
-      "Event Handling",
-      "Conditional Rendering",
-      "List Rendering",
-      "Component Composition",
-    ],
-    whatILearned: [
-      "Built dynamic user interfaces using React functional components and JSX syntax",
-      "Passed data between components using props and managed local state with the useState hook",
-      "Handled user interactions with event handlers and implemented controlled form components",
-      "Applied conditional rendering and list rendering with keys for dynamic content display",
-      "Composed reusable components to build structured, maintainable single-page applications",
-      "Understood the virtual DOM and React's efficient rendering and reconciliation process",
-    ],
-    projectsBuilt: [
-      {
-        title: "React Portfolio Site",
-        description:
-          "Built a personal portfolio single-page application using React components, props, and state — featuring dynamic content rendering, navigation, and responsive layout.",
-      },
-      {
-        title: "Interactive To-Do App",
-        description:
-          "Created a fully functional to-do application with React, implementing add, complete, and delete functionality using useState, event handling, and list rendering.",
-      },
-    ],
-  },
+  id: 47,
+  category: "App Development",
+  title: "React Basics",
+  organization: "Meta (via Coursera)",
+  date: "Jan 2026",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s React Basics course, focusing on React components, JSX, props, state management, event handling, and building dynamic single-page applications.",
+  longDescription:
+    "React Basics is a foundational course authorized by Meta and delivered through Coursera as part of the Meta React Native Specialization. This course provides a comprehensive introduction to React, a widely used JavaScript library for building user interfaces. It covers core concepts such as the virtual DOM, functional components with JSX, data flow using props, and state management using the useState hook. Additional topics include event handling, conditional rendering, list rendering with keys, and component composition for building scalable single-page applications. The course establishes a strong foundation for modern frontend development and prepares learners for advancing into React Native and cross-platform mobile development.",
+  credentialUrl: "https://coursera.org/verify/KTA1XEUIAWBI",
+  badge: "⚛️",
+  image: reactBasicsImg,
+  skills: [
+    "React",
+    "JSX",
+    "Components & Props",
+    "State Management (useState)",
+    "Event Handling",
+    "Conditional Rendering",
+    "List Rendering",
+    "Component Composition",
+  ],
+  whatILearned: [
+    "Developed dynamic user interfaces using React functional components and JSX",
+    "Managed component state effectively using the useState hook and handled data flow via props",
+    "Implemented event handling and controlled components for interactive user experiences",
+    "Applied conditional rendering and list rendering with keys for dynamic UI updates",
+    "Composed reusable and maintainable components to build scalable single-page applications",
+    "Understood the virtual DOM and React’s rendering and reconciliation mechanisms",
+  ],
+  projectsBuilt: [
+    {
+      title: "React Portfolio Site",
+      description:
+        "Developed a personal portfolio single-page application using React, featuring component-based architecture, dynamic content rendering, navigation, and responsive design.",
+    },
+    {
+      title: "Interactive To-Do App",
+      description:
+        "Built a fully functional to-do application using React, implementing add, update, and delete operations with state management, event handling, and efficient list rendering.",
+    },
+  ],
+},
 
   {
-    id: 48,
-    category: "App Development",
-    title: "React Native",
-    organization: "Meta (via Coursera)",
-    date: "Jan 2026",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's React Native course, covering cross-platform mobile development with React Native, native components, navigation, styling, platform APIs, and building production-ready mobile apps.",
-    longDescription:
-      "React Native is an advanced course authorised by Meta and offered through Coursera as part of the Meta React Native Specialization. This course provided in-depth training on building cross-platform mobile applications using React Native. Topics included core React Native components (View, Text, ScrollView, FlatList, Image), styling with StyleSheet and Flexbox, navigation using React Navigation (stack, tab, drawer), handling user input with forms and gestures, accessing platform APIs (camera, location, storage), managing app state, working with lists and data, and optimising performance. The course emphasised building real-world, production-quality mobile applications that run seamlessly on both iOS and Android.",
-    credentialUrl: "https://coursera.org/verify/92AC0PBNH8K8",
-    badge: "📱",
-    image: reactNativeImg,
-    skills: [
-      "React Native",
-      "Cross-Platform Development",
-      "Native Components",
-      "React Navigation",
-      "StyleSheet & Flexbox",
-      "Platform APIs",
-      "State Management",
-      "Mobile Performance Optimisation",
-    ],
-    whatILearned: [
-      "Built cross-platform mobile apps using React Native core components like View, Text, FlatList, and Image",
-      "Implemented multi-screen navigation with React Navigation including stack, tab, and drawer navigators",
-      "Styled mobile interfaces using StyleSheet and Flexbox for responsive, platform-adaptive layouts",
-      "Accessed native platform APIs for camera, location, and local storage functionality",
-      "Managed application state effectively across complex component hierarchies",
-      "Optimised React Native app performance with proper list rendering, memoisation, and profiling techniques",
-    ],
-    projectsBuilt: [
-      {
-        title: "Little Lemon Food Ordering App",
-        description:
-          "Built a complete food ordering mobile application with React Native featuring menu browsing, filtering, cart management, user profiles, and multi-screen navigation.",
-      },
-      {
-        title: "Cross-Platform Social Feed",
-        description:
-          "Created a social media feed app with React Native, implementing infinite scrolling with FlatList, image loading, pull-to-refresh, and platform-specific UI adaptations for iOS and Android.",
-      },
-    ],
-  },
+  id: 48,
+  category: "App Development",
+  title: "React Native",
+  organization: "Meta (via Coursera)",
+  date: "Jan 2026",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s React Native course, focusing on cross-platform mobile development, native components, navigation, styling, platform APIs, and building production-ready mobile applications.",
+  longDescription:
+    "React Native is an advanced-level course authorized by Meta and delivered through Coursera as part of the Meta React Native Specialization. This course provides in-depth training in building cross-platform mobile applications using React Native. It covers core components such as View, Text, ScrollView, FlatList, and Image, along with styling using StyleSheet and Flexbox for responsive layouts. The course also explores navigation patterns using React Navigation (stack, tab, and drawer navigators), handling user input and gestures, integrating platform APIs (camera, location, and local storage), and managing application state across complex component hierarchies. Emphasis is placed on performance optimization techniques, efficient list rendering, and building scalable, production-quality applications that run seamlessly on both iOS and Android platforms.",
+  credentialUrl: "https://coursera.org/verify/92AC0PBNH8K8",
+  badge: "📱",
+  image: reactNativeImg,
+  skills: [
+    "React Native",
+    "Cross-Platform Development",
+    "Native Components",
+    "React Navigation",
+    "StyleSheet & Flexbox",
+    "Platform APIs",
+    "State Management",
+    "Mobile Performance Optimization",
+  ],
+  whatILearned: [
+    "Developed cross-platform mobile applications using React Native core components such as View, Text, FlatList, and Image",
+    "Implemented multi-screen navigation using React Navigation, including stack, tab, and drawer navigators",
+    "Designed responsive and adaptive layouts using StyleSheet and Flexbox",
+    "Integrated native device features through platform APIs such as camera, location, and local storage",
+    "Managed application state efficiently across complex component structures",
+    "Optimized application performance through efficient list rendering, memoization, and profiling techniques",
+  ],
+  projectsBuilt: [
+    {
+      title: "Little Lemon Food Ordering App",
+      description:
+        "Developed a full-featured food ordering mobile application using React Native, including menu browsing, filtering, cart management, user profiles, and multi-screen navigation.",
+    },
+    {
+      title: "Cross-Platform Social Feed",
+      description:
+        "Built a social feed application using React Native with features such as infinite scrolling via FlatList, image rendering, pull-to-refresh, and platform-specific UI optimizations for iOS and Android.",
+    },
+  ],
+},
 
   {
-    id: 49,
-    category: "App Development",
-    title: "Version Control",
-    organization: "Meta (via Coursera)",
-    date: "Nov 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's Version Control course, covering Git fundamentals, branching strategies, collaboration workflows, GitHub, and professional version control practices for software development.",
-    longDescription:
-      "Version Control is a course authorised by Meta and offered through Coursera as part of Meta's developer programmes. This course provided comprehensive training in modern version control systems, focusing on Git and GitHub. Topics included understanding version control concepts, initialising and configuring Git repositories, staging and committing changes, branching and merging strategies, resolving merge conflicts, working with remote repositories on GitHub, pull requests and code review workflows, Git history and log analysis, reverting and resetting changes, and collaborative development best practices. The course emphasised professional workflows used in real-world software teams.",
-    credentialUrl: "https://coursera.org/verify/R4286KAH8YQE",
-    badge: "🔀",
-    image: versionControlImg,
-    skills: [
-      "Git",
-      "GitHub",
-      "Branching & Merging",
-      "Pull Requests",
-      "Code Review",
-      "Merge Conflict Resolution",
-      "Git History & Logs",
-      "Collaborative Workflows",
-    ],
-    whatILearned: [
-      "Mastered Git fundamentals including initialising repos, staging, committing, and managing the working tree",
-      "Applied branching and merging strategies for parallel development and feature isolation",
-      "Resolved merge conflicts effectively using Git's conflict resolution tools",
-      "Collaborated on projects using GitHub with pull requests, code reviews, and remote repositories",
-      "Analysed project history using git log, diff, and blame for debugging and auditing",
-      "Applied professional Git workflows including feature branching, rebasing, and tagging releases",
-    ],
-    projectsBuilt: [
-      {
-        title: "Collaborative Git Workflow Project",
-        description:
-          "Practised a full team collaboration workflow using Git and GitHub — creating feature branches, submitting pull requests, conducting code reviews, and resolving merge conflicts.",
-      },
-      {
-        title: "Repository Management Exercise",
-        description:
-          "Managed a multi-branch Git repository with release tagging, hotfix branches, and history rewriting — simulating real-world version control scenarios in a professional development environment.",
-      },
-    ],
-  },
+  id: 49,
+  category: "App Development",
+  title: "Version Control",
+  organization: "Meta (via Coursera)",
+  date: "Nov 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s Version Control course, focusing on Git fundamentals, branching strategies, collaboration workflows, GitHub, and professional version control practices.",
+  longDescription:
+    "Version Control is a course authorized by Meta and delivered through Coursera as part of Meta’s developer programs. This course provides comprehensive training in modern version control systems, with a strong focus on Git and GitHub. It covers core concepts such as repository initialization and configuration, staging and committing changes, branching and merging strategies, and resolving merge conflicts. The course also explores working with remote repositories on GitHub, pull request workflows, code reviews, and collaborative development practices. Additional topics include analyzing Git history (log, diff, blame), reverting and resetting changes, and applying professional workflows such as feature branching, rebasing, and release tagging. Emphasis is placed on real-world team collaboration and industry-standard development workflows.",
+  credentialUrl: "https://coursera.org/verify/R4286KAH8YQE",
+  badge: "🔀",
+  image: versionControlImg,
+  skills: [
+    "Git",
+    "GitHub",
+    "Branching & Merging",
+    "Pull Requests",
+    "Code Review",
+    "Merge Conflict Resolution",
+    "Git History & Logs",
+    "Collaborative Workflows",
+  ],
+  whatILearned: [
+    "Applied Git fundamentals including repository initialization, staging, committing, and working tree management",
+    "Implemented branching and merging strategies for parallel development and feature isolation",
+    "Resolved merge conflicts using Git tools and best practices",
+    "Collaborated using GitHub through pull requests, code reviews, and remote repository management",
+    "Analyzed project history using git log, diff, and blame for debugging and auditing",
+    "Applied professional workflows including feature branching, rebasing, and release versioning",
+  ],
+  projectsBuilt: [
+    {
+      title: "Collaborative Git Workflow Project",
+      description:
+        "Simulated a team-based development workflow using Git and GitHub, including feature branching, pull requests, code reviews, and conflict resolution.",
+    },
+    {
+      title: "Repository Management Exercise",
+      description:
+        "Managed a multi-branch Git repository with release tagging, hotfix workflows, and history rewriting to replicate real-world version control scenarios.",
+    },
+  ],
+},
 
   {
-    id: 50,
-    category: "App Development",
-    title: "Working with Data in iOS",
-    organization: "Meta (via Coursera)",
-    date: "Dec 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's Working with Data in iOS course, covering Core Data, data persistence, networking, JSON parsing, REST APIs, and managing data flow in iOS applications.",
-    longDescription:
-      "Working with Data in iOS is an advanced course authorised by Meta and offered through Coursera as part of the Meta iOS Developer programme. This course focused on data management in iOS applications — from local persistence to remote data fetching. Topics included Core Data framework (entities, relationships, managed object contexts, fetch requests), UserDefaults, file system storage, networking with URLSession, consuming REST APIs, parsing JSON with Codable, managing asynchronous data flows, error handling for network operations, and data caching strategies. The course emphasised building robust, data-driven iOS applications that handle both offline and online data scenarios efficiently.",
-    credentialUrl: "https://coursera.org/verify/6MW4MW08AWFZ",
-    badge: "🗄️",
-    image: workingDataIOSImg,
-    skills: [
-      "Core Data",
-      "Data Persistence",
-      "URLSession & Networking",
-      "REST API Consumption",
-      "JSON Parsing (Codable)",
-      "UserDefaults",
-      "Asynchronous Data Flow",
-      "Data Caching",
-    ],
-    whatILearned: [
-      "Implemented local data persistence using Core Data with entities, relationships, and fetch requests",
-      "Consumed REST APIs using URLSession and parsed JSON responses with Swift's Codable protocol",
-      "Managed asynchronous data flows with proper error handling for network operations",
-      "Stored lightweight user preferences and settings using UserDefaults",
-      "Applied data caching strategies to optimise app performance and support offline functionality",
-      "Built data-driven iOS interfaces that update dynamically based on local and remote data sources",
-    ],
-    projectsBuilt: [
-      {
-        title: "Core Data Restaurant App",
-        description:
-          "Built a restaurant menu app with Core Data persistence, enabling users to browse menu items, save favourites, and manage orders with full offline support.",
-      },
-      {
-        title: "API-Connected News Reader",
-        description:
-          "Created a news reader iOS app that fetches articles from a REST API, parses JSON with Codable, caches data locally, and handles network errors gracefully.",
-      },
-    ],
-  },
+  id: 50,
+  category: "App Development",
+  title: "Working with Data in iOS",
+  organization: "Meta (via Coursera)",
+  date: "Dec 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s Working with Data in iOS course, focusing on Core Data, data persistence, networking, JSON parsing, REST APIs, and managing data flow in iOS applications.",
+  longDescription:
+    "Working with Data in iOS is an advanced-level course authorized by Meta and delivered through Coursera as part of the Meta iOS Developer Program. This course focuses on comprehensive data management in iOS applications, covering both local persistence and remote data handling. It includes in-depth exploration of the Core Data framework (entities, relationships, managed object contexts, and fetch requests), lightweight storage using UserDefaults, and file system storage. The course also covers networking using URLSession, consuming REST APIs, parsing JSON with the Codable protocol, and managing asynchronous data flows with robust error handling. Additional emphasis is placed on data caching strategies and building scalable, data-driven applications that efficiently handle both offline and online scenarios.",
+  credentialUrl: "https://coursera.org/verify/6MW4MW08AWFZ",
+  badge: "🗄️",
+  image: workingDataIOSImg,
+  skills: [
+    "Core Data",
+    "Data Persistence",
+    "URLSession & Networking",
+    "REST API Consumption",
+    "JSON Parsing (Codable)",
+    "UserDefaults",
+    "Asynchronous Data Flow",
+    "Data Caching",
+  ],
+  whatILearned: [
+    "Implemented local data persistence using Core Data with entities, relationships, and fetch requests",
+    "Integrated REST APIs using URLSession and parsed JSON responses with Swift’s Codable protocol",
+    "Managed asynchronous data flows with proper error handling and concurrency patterns",
+    "Stored lightweight user data and preferences using UserDefaults",
+    "Applied data caching strategies to optimize performance and support offline functionality",
+    "Built dynamic, data-driven iOS interfaces powered by both local and remote data sources",
+  ],
+  projectsBuilt: [
+    {
+      title: "Core Data Restaurant App",
+      description:
+        "Developed a restaurant menu application with Core Data persistence, enabling users to browse items, save favorites, and manage orders with offline support.",
+    },
+    {
+      title: "API-Connected News Reader",
+      description:
+        "Built a news reader iOS application that fetches data from REST APIs, parses JSON using Codable, implements caching, and handles network errors gracefully.",
+    },
+  ],
+},
 
   {
-    id: 51,
-    category: "App Development",
-    title: "iOS App Capstone",
-    organization: "Meta (via Coursera)",
-    date: "Feb 2026",
-    type: "Internship",
-    isRealCertificate: true,
-    description:
-      "Completed Meta's iOS App Capstone project, applying all skills from the Meta iOS Developer programme to design, build, and deliver a complete, production-quality iOS application.",
-    longDescription:
-      "The iOS App Capstone is the culminating project of the Meta iOS Developer Professional Certificate programme, offered through Coursera. This capstone required applying every skill acquired across the programme — Swift programming, SwiftUI and UIKit interfaces, Core Data persistence, REST API integration, navigation, state management, version control, and UX/UI design principles — to independently design, develop, and deliver a fully functional iOS application from scratch. The project followed a professional development workflow including requirements gathering, UI/UX design, iterative development, testing, and final presentation. It demonstrated the ability to take an app from concept to completion as a professional iOS developer.",
-    credentialUrl: "https://coursera.org/verify/HTEHAMIL9AA4",
-    badge: "🏆",
-    image: iosAppCapstoneImg,
-    skills: [
-      "iOS App Development",
-      "Swift & SwiftUI",
-      "Core Data",
-      "REST API Integration",
-      "Navigation & State Management",
-      "UX/UI Design",
-      "Version Control (Git)",
-      "End-to-End App Delivery",
-    ],
-    whatILearned: [
-      "Designed and built a complete iOS application independently, applying the full Meta iOS Developer curriculum",
-      "Implemented a polished SwiftUI interface with navigation, animations, and adaptive layouts",
-      "Integrated Core Data for local persistence and REST APIs for remote data fetching",
-      "Applied UX/UI design principles to create an intuitive and visually appealing user experience",
-      "Managed the full development lifecycle from requirements and design through implementation and testing",
-      "Used Git for version control throughout the project with a professional branching workflow",
-    ],
-    projectsBuilt: [
-      {
-        title: "Little Lemon Restaurant App",
-        description:
-          "Designed and developed a complete restaurant ordering iOS app featuring onboarding, menu browsing with filtering and sorting, Core Data persistence, user profile management, and a polished SwiftUI interface.",
-      },
-    ],
-  },
+  id: 51,
+  category: "App Development",
+  title: "iOS App Capstone",
+  organization: "Meta (via Coursera)",
+  date: "Feb 2026",
+  type: "Internship",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s iOS App Capstone project, applying end-to-end iOS development skills to design, build, and deliver a production-quality mobile application.",
+  longDescription:
+    "The iOS App Capstone is the culminating project of the Meta iOS Developer Professional Certificate program, delivered through Coursera. This capstone required the application of all skills acquired throughout the program, including Swift programming, SwiftUI and UIKit interface development, Core Data persistence, REST API integration, navigation, state management, version control, and UX/UI design principles. The project followed a professional software development lifecycle, including requirements analysis, UI/UX design, iterative development, testing, and final delivery. It demonstrates the ability to independently conceptualize, architect, and implement a fully functional, production-ready iOS application from end to end, reflecting industry-standard development practices.",
+  credentialUrl: "https://coursera.org/verify/HTEHAMIL9AA4",
+  badge: "🏆",
+  image: iosAppCapstoneImg,
+  skills: [
+    "iOS App Development",
+    "Swift & SwiftUI",
+    "Core Data",
+    "REST API Integration",
+    "Navigation & State Management",
+    "UX/UI Design",
+    "Version Control (Git)",
+    "End-to-End App Delivery",
+  ],
+  whatILearned: [
+    "Designed and developed a complete iOS application independently, applying the full Meta iOS Developer curriculum",
+    "Built a polished SwiftUI interface with structured navigation, animations, and adaptive layouts",
+    "Integrated Core Data for local persistence and REST APIs for dynamic data fetching",
+    "Applied UX/UI design principles to deliver an intuitive and user-centric experience",
+    "Managed the full development lifecycle from requirements gathering and design to implementation and testing",
+    "Utilized Git for version control with professional branching and collaboration workflows",
+  ],
+  projectsBuilt: [
+    {
+      title: "Little Lemon Restaurant App",
+      description:
+        "Designed and developed a full-featured restaurant ordering iOS application, including onboarding flows, menu browsing with filtering and sorting, Core Data persistence, user profile management, and a polished, production-ready SwiftUI interface.",
+    },
+  ],
+},
 
   {
-    id: 54,
-    category: "App Development",
-    title: "The Complete Flutter Development Bootcamp with Dart",
-    organization: "Udemy",
-    date: "March 2026",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Dr. Angela Yu's 29-hour Flutter Development Bootcamp on Udemy, mastering Dart and Flutter to build beautiful, cross-platform iOS and Android applications from scratch.",
-    longDescription:
-      "The Complete Flutter Development Bootcamp with Dart by Dr. Angela Yu is a comprehensive, project-driven course covering Flutter and Dart end to end. Over 29 hours, the bootcamp progressed from Dart language fundamentals through Flutter widget architecture, state management, navigation, animations, REST API integration, Firebase, and publishing to both the App Store and Google Play. Every concept was reinforced by building real, polished apps — from simple UI exercises to fully functional cross-platform applications. Completing this bootcamp established a strong, production-ready foundation in Flutter mobile development and the Dart programming language.",
-    credentialUrl: "https://ude.my/UC-b0fcb10b-ae66-4b9a-b562-73d9854d4ae0",
-    badge: "📱",
-    image: udemyFlutterImg,
-    skills: [
-      "Flutter",
-      "Dart",
-      "Cross-Platform Mobile Development",
-      "Widget Architecture",
-      "State Management",
-      "Navigation & Routing",
-      "REST API Integration",
-      "Firebase",
-      "Animations & UI Polish",
-      "App Store & Play Store Deployment",
-    ],
-    whatILearned: [
-      "Mastered Dart fundamentals including variables, control flow, OOP, async/await, and null safety",
-      "Built responsive, beautiful UIs using Flutter's widget tree with Stateless and Stateful widgets",
-      "Managed application state using setState, Provider, and other state management patterns",
-      "Implemented multi-screen navigation with Flutter's Navigator and named routes",
-      "Integrated REST APIs to fetch and display live data within Flutter apps",
-      "Connected apps to Firebase for real-time database, authentication, and cloud storage",
-      "Added polished animations and transitions using Flutter's animation framework",
-      "Prepared and published apps for both iOS App Store and Android Google Play",
-    ],
-    projectsBuilt: [
-      {
-        title: "Cross-Platform Flutter App",
-        description:
-          "Built a fully functional cross-platform mobile application in Flutter targeting both iOS and Android, featuring REST API integration, Firebase backend, multi-screen navigation, and polished animations — delivered as the course capstone.",
-      },
-      {
-        title: "UI-Rich Flutter Projects",
-        description:
-          "Completed a series of progressively complex Flutter mini-apps covering widget composition, state management, custom animations, and third-party package integration throughout the bootcamp.",
-      },
-    ],
-  },
+  id: 64,
+  category: "App Development",
+  title: "Coding Interview Preparation",
+  organization: "Meta (via Coursera)",
+  date: "Mar 23, 2026",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Meta’s Coding Interview Preparation course, focusing on data structures, algorithms, problem-solving strategies, and technical interview techniques.",
+  longDescription:
+    "Coding Interview Preparation is a professional-level course authorized by Meta and delivered through Coursera, designed to prepare developers for technical interviews at top technology companies. The course covers core algorithmic concepts, in-depth data structure knowledge, and common coding problem patterns frequently encountered in interviews. It also emphasizes effective problem-solving strategies, time and space complexity analysis, and clear communication of solutions during whiteboard or live coding sessions. Additionally, the program focuses on interview techniques such as structuring solutions, handling edge cases, and performing under time constraints. Completing this course significantly strengthened both my algorithmic thinking and my readiness for technical interviews.",
+  credentialUrl: "https://www.coursera.org/account/accomplishments/verify/6KOM328CN42P",
+  badge: "💻",
+  image: codingInterviewPrepImg,
+  skills: [
+    "Data Structures & Algorithms",
+    "Problem-Solving Strategies",
+    "Coding Interview Techniques",
+    "Algorithm Design",
+    "Time Complexity Analysis",
+    "Space Optimization",
+    "Whiteboarding Skills",
+    "Technical Communication",
+  ],
+  whatILearned: [
+    "Mastered core data structures including arrays, linked lists, trees, graphs, and hash tables",
+    "Applied algorithmic techniques such as sorting, searching, dynamic programming, and greedy approaches",
+    "Practiced structured problem-solving and solution communication in interview-style scenarios",
+    "Analyzed time and space complexity to optimize algorithm performance",
+    "Recognized common interview patterns and approached unfamiliar problems systematically",
+    "Improved ability to think clearly and communicate effectively under time constraints",
+  ],
+  projectsBuilt: [
+    {
+      title: "Algorithm Problem Portfolio",
+      description:
+        "Solved and documented 50+ coding interview problems across data structures and algorithms, building a structured portfolio of optimized solutions and approaches.",
+    },
+    {
+      title: "Mock Interview Sessions",
+      description:
+        "Participated in structured mock interviews simulating real-world scenarios, focusing on time management, clarity of explanation, and efficient problem-solving under pressure.",
+    },
+  ],
+},
+
+  {
+  id: 65,
+  category: "App Development",
+  title: "Meta iOS Developer Professional Certificate",
+  organization: "Meta (via Coursera)",
+  date: "Mar 23, 2026",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed the Meta iOS Developer Professional Certificate, a comprehensive 12-course program building professional-level expertise in iOS app development using Swift, SwiftUI, UIKit, and React Native.",
+  longDescription:
+    "The Meta iOS Developer Professional Certificate is a comprehensive 12-course program authorized by Meta and delivered through Coursera, designed to prepare learners for professional roles as iOS developers. The program covers the complete iOS development lifecycle, including Swift programming (from fundamentals to advanced concepts), UI development using SwiftUI and UIKit, Core Data for local persistence, REST API integration, mobile UI/UX design principles, and cross-platform development using React Native. Through a combination of structured coursework, hands-on projects, and real-world case studies, the program develops strong practical and theoretical expertise. Completion of all courses, along with a capstone project, demonstrates the ability to design, architect, and deliver production-ready iOS applications following industry best practices.",
+  credentialUrl: "https://www.coursera.org/account/accomplishments/professional-cert/LXGT1VVYMM9B",
+  badge: "🏆",
+  image: metaIOSDeveloperProImg,
+  skills: [
+    "iOS Development",
+    "Swift Programming",
+    "SwiftUI & UIKit",
+    "Core Data",
+    "REST API Integration",
+    "Mobile UI/UX Design",
+    "React Native",
+    "App Architecture & State Management",
+    "Git & Version Control",
+    "Professional iOS Development Practices",
+  ],
+  whatILearned: [
+    "Completed a comprehensive 12-course professional iOS development program from Meta",
+    "Mastered Swift programming, including advanced concepts such as generics, protocols, and concurrency",
+    "Built production-quality iOS interfaces using both UIKit and SwiftUI frameworks",
+    "Implemented Core Data for local persistence and integrated REST APIs for dynamic data handling",
+    "Applied mobile-specific UX/UI design principles to create intuitive and user-friendly applications",
+    "Developed cross-platform mobile applications using React Native",
+    "Applied industry-standard architectures, state management patterns, and development best practices",
+    "Delivered an end-to-end capstone project demonstrating full iOS application development capability",
+  ],
+  projectsBuilt: [
+    {
+      title: "Professional iOS App Portfolio",
+      description:
+        "Completed 12 progressively advanced iOS development projects throughout the program, culminating in a production-grade application integrating SwiftUI, Core Data, REST APIs, and scalable architecture.",
+    },
+    {
+      title: "End-to-End iOS Capstone Application",
+      description:
+        "Designed and developed a complete iOS application from concept to deployment, incorporating polished UI/UX, data persistence, networking, state management, and production-ready coding standards.",
+    },
+  ],
+},
+
+  {
+  id: 54,
+  category: "App Development",
+  title: "The Complete Flutter Development Bootcamp with Dart",
+  organization: "Udemy",
+  date: "March 2026",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Successfully completed Dr. Angela Yu’s 29-hour Flutter Development Bootcamp, gaining hands-on expertise in Dart and Flutter for building cross-platform iOS and Android applications.",
+  longDescription:
+    "The Complete Flutter Development Bootcamp with Dart by Dr. Angela Yu is a comprehensive, project-based course covering Flutter and Dart from fundamentals to advanced mobile development concepts. Over 29 hours of structured learning, the program progresses from Dart programming basics to Flutter’s widget-based architecture, including UI composition, state management, navigation, animations, REST API integration, Firebase services, and deployment workflows. Each concept is reinforced through hands-on projects, enabling the development of real-world, production-ready applications. Completing this bootcamp established a strong foundation in cross-platform mobile development, with the ability to design, build, and deploy scalable applications for both iOS and Android.",
+  credentialUrl: "https://ude.my/UC-b0fcb10b-ae66-4b9a-b562-73d9854d4ae0",
+  badge: "📱",
+  image: udemyFlutterImg,
+  skills: [
+    "Flutter",
+    "Dart",
+    "Cross-Platform Mobile Development",
+    "Widget Architecture",
+    "State Management",
+    "Navigation & Routing",
+    "REST API Integration",
+    "Firebase",
+    "Animations & UI Polish",
+    "App Store & Play Store Deployment",
+  ],
+  whatILearned: [
+    "Developed strong proficiency in Dart, including object-oriented programming, async/await, and null safety",
+    "Built responsive and visually polished user interfaces using Flutter’s widget-based architecture",
+    "Managed application state using setState and advanced state management patterns",
+    "Implemented multi-screen navigation using Navigator and named routing",
+    "Integrated REST APIs to fetch and display dynamic data within applications",
+    "Connected applications to Firebase services for authentication, real-time data, and cloud storage",
+    "Enhanced user experience with animations and smooth transitions using Flutter’s animation framework",
+    "Prepared and deployed applications to both the Apple App Store and Google Play Store",
+  ],
+  projectsBuilt: [
+    {
+      title: "Cross-Platform Flutter App",
+      description:
+        "Developed a full-featured cross-platform mobile application using Flutter, integrating REST APIs, Firebase backend services, multi-screen navigation, and polished animations for both iOS and Android.",
+    },
+    {
+      title: "UI-Rich Flutter Projects",
+      description:
+        "Built multiple Flutter mini-projects focusing on widget composition, state management, animations, and third-party integrations to strengthen practical development skills.",
+    },
+  ],
+},
 
   /* ================= WEB DEVELOPMENT ================= */
 
@@ -2204,7 +2304,7 @@ export const categories = [
     name: "App Development",
     icon: "📱",
     color: "from-brown-500 to-brown-600",
-    count: 13,
+    count: 15,
   },
   {
     id: "web-development",
