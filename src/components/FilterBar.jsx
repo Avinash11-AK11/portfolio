@@ -10,7 +10,8 @@ function FilterBar({
   setSelectedType,
   types,
   categories = [],
-  isSingleCategory = false
+  isSingleCategory = false,
+  searchPlaceholder = "Search..."
 }) {
 
   const pillStyle = (active) =>
@@ -24,7 +25,7 @@ function FilterBar({
       {/* Search */}
       <div className="relative group">
 
-        <div className="flex items-center gap-3 bg-[#F4EEDB] px-5 py-4 rounded-xl transition-all duration-300 group-focus-within:shadow-md">
+        <div className="flex items-center gap-3 bg-white border-2 border-[#D6C59A] px-5 py-4 rounded-xl transition-all duration-300 group-focus-within:border-[#9B5F3F] group-focus-within:shadow-md group-focus-within:bg-white">
 
           <Search
             size={20}
@@ -34,7 +35,7 @@ function FilterBar({
           <input
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Search certifications..."
+            placeholder={searchPlaceholder}
             className="flex-1 bg-transparent outline-none text-[#6F4A2D] placeholder-[#6F4A2D]/60 text-sm"
           />
 

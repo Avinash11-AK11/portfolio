@@ -76,6 +76,7 @@ function ResumePage() {
             types={[]}
             categories={resumeCategories}
             isSingleCategory={false}
+            searchPlaceholder="Search resumes..."
           />
         </div>
 

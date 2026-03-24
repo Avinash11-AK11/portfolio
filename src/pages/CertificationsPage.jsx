@@ -7,10 +7,36 @@ import FilterBar from "../components/FilterBar";
 function CertificationsPage() {
   const { category } = useParams();
 
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState(category || "");
-  const [selectedType, setSelectedType] = useState("");
-  const [sortBy, setSortBy] = useState("date-desc");
+  // Load filters from localStorage on mount
+  const [searchTerm, setSearchTerm] = useState(() => {
+    return localStorage.getItem("cert_searchTerm") || "";
+  });
+  const [selectedCategory, setSelectedCategory] = useState(() => {
+    return localStorage.getItem("cert_selectedCategory") || category || "";
+  });
+  const [selectedType, setSelectedType] = useState(() => {
+    return localStorage.getItem("cert_selectedType") || "";
+  });
+  const [sortBy, setSortBy] = useState(() => {
+    return localStorage.getItem("cert_sortBy") || "date-desc";
+  });
+
+  // Save filters to localStorage whenever they change
+  React.useEffect(() => {
+    localStorage.setItem("cert_searchTerm", searchTerm);
+  }, [searchTerm]);
+
+  React.useEffect(() => {
+    localStorage.setItem("cert_selectedCategory", selectedCategory);
+  }, [selectedCategory]);
+
+  React.useEffect(() => {
+    localStorage.setItem("cert_selectedType", selectedType);
+  }, [selectedType]);
+
+  React.useEffect(() => {
+    localStorage.setItem("cert_sortBy", sortBy);
+  }, [sortBy]);
 
   const handleCategoryChange = (cat) => {
     setSelectedCategory(cat);
@@ -59,7 +85,7 @@ function CertificationsPage() {
     return filtered;
   }, [category, selectedCategory, searchTerm, selectedType, sortBy, isSingleCategory]);
 
-  const typeOrder = ["Course Completion", "Internship", "Hackathon", "Quiz"];
+  const typeOrder = ["Course Completion", "Internship", "Hackathon", "Quiz", "Assessment", "Project"];
   const types = [
     ...new Set(
       isSingleCategory
@@ -77,7 +103,7 @@ function CertificationsPage() {
             )
             .map((cert) => cert.type)
         : certificationsData
-            .filter((cert) => cert.type !== "Hackathon" && cert.type !== "Quiz")
+            .filter((cert) => cert.type === "Course Completion" || cert.type === "Internship")
             .map((cert) => cert.type)
     ),
   ].sort((a, b) => typeOrder.indexOf(a) - typeOrder.indexOf(b));
@@ -123,6 +149,7 @@ function CertificationsPage() {
             types={types}
             categories={isSingleCategory ? [] : categories}
             isSingleCategory={isSingleCategory}
+            searchPlaceholder="Search certifications..."
           />
 
         </div>

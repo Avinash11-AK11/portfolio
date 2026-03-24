@@ -74,6 +74,7 @@ function ProjectsPage() {
             types={[]}
             categories={projectCategories}
             isSingleCategory={false}
+            searchPlaceholder="Search projects..."
           />
         </div>
 

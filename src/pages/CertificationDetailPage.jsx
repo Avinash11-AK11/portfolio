@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import {
   ArrowLeft,
   ExternalLink,
@@ -139,9 +139,12 @@ export default function CertificationDetailPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-1.5 text-sm text-[#6F4A2D]/70 flex-wrap">
-            <Link to="/certifications" className="hover:text-[#9B5F3F] transition font-medium">
+            <button 
+              onClick={() => navigate("/certifications")}
+              className="hover:text-[#9B5F3F] transition font-medium cursor-pointer bg-none border-none p-0"
+            >
               Certifications
-            </Link>
+            </button>
             <ChevronRight size={14} className="opacity-50 shrink-0" />
             <span className="text-[#6F4A2D] font-semibold truncate max-w-[200px] sm:max-w-xs">
               {cert.title}

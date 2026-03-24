@@ -1374,921 +1374,906 @@ export const certificationsData = [
 
   /* ================= WEB DEVELOPMENT ================= */
 
+
+  {
+  id: 19,
+  category: "Web Development",
+  title: "Frontend Web Development Internship",
+  organization: "VT (Vaishnav Technologies)",
+  date: "May 2025 – Jun 2025",
+  type: "Internship",
+  isRealCertificate: true,
+  description:
+    "Completed a frontend web development internship at Vaishnav Technologies, gaining hands-on experience building responsive user interfaces, implementing modern design systems, and working within a professional development environment.",
+  longDescription:
+    "This frontend web development internship at VT (Vaishnav Technologies) provided hands-on, real-world experience in building and delivering production-quality web interfaces. During the internship, I worked on live projects, translating design mockups into responsive and interactive web applications using modern frontend technologies. I collaborated within a structured team environment, participated in code reviews, and followed industry-standard workflows including version control, task tracking, and iterative development. The experience strengthened my ability to write clean, maintainable code and effectively bridge the gap between design and development in a professional setting.",
+  credentialUrl: "https://www.vaishnavtech.in/verify-certificate",
+  badge: "🌐",
+  image: vtFrontendInternshipImg,
+  skills: [
+    "HTML5 & CSS3",
+    "JavaScript (ES6+)",
+    "Responsive Web Design",
+    "React.js",
+    "Tailwind CSS",
+    "Git & GitHub",
+    "UI/UX Implementation",
+    "Cross-Browser Compatibility",
+  ],
+  whatILearned: [
+    "Developed responsive, cross-browser-compatible web interfaces from design specifications",
+    "Built modern UI components using HTML5, CSS3, and JavaScript (ES6+)",
+    "Applied React.js to create reusable, component-based architectures for dynamic applications",
+    "Utilized Git and GitHub for version control, branching strategies, and collaborative development",
+    "Followed professional workflows including code reviews, sprint-based development, and task management",
+    "Translated Figma and design mockups into pixel-accurate, production-ready frontend code",
+  ],
+  projectsBuilt: [
+    {
+      title: "Responsive Business Landing Page",
+      description:
+        "Designed and developed a fully responsive, multi-section landing page with smooth animations, mobile-first design, and optimized performance.",
+    },
+    {
+      title: "Interactive UI Component Library",
+      description:
+        "Built a reusable React component library (navigation, cards, modals, forms) aligned with a design system to ensure consistency and accelerate development.",
+    },
+  ],
+},
+
+  {
+  id: 20,
+  category: "Web Development",
+  title: "Web Development Internship",
+  organization: "CODEXINTERN",
+  date: "July 2025",
+  type: "Internship",
+  isRealCertificate: true,
+  description:
+    "Successfully completed a web development internship at CODEXINTERN, gaining hands-on experience building real-world web applications and working within professional full-stack development workflows.",
+  longDescription:
+    "This web development internship at CODEXINTERN provided a practical, industry-oriented experience in modern software engineering. During the program, I contributed to real-world web development tasks, working across both frontend and backend components. The internship emphasized writing clean, maintainable code, collaborating within a team environment, and following structured development practices. I worked with modern technologies including React, Node.js, and REST APIs, while also applying version control using Git and GitHub. The experience included participating in agile workflows such as sprint planning, daily stand-ups, and iterative feature delivery. This internship strengthened my ability to build scalable web applications and operate effectively in a professional development environment.",
+  credentialUrl: "https://codexintern.in/verify",
+  badge: "💻",
+  image: codexWebInternshipImg,
+  skills: [
+    "HTML5 & CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Node.js & Express",
+    "REST API Integration",
+    "Git & GitHub",
+    "Responsive Design",
+    "Agile / Scrum Workflow",
+  ],
+  whatILearned: [
+    "Developed and delivered production-ready web features across frontend and backend systems",
+    "Integrated REST APIs and handled asynchronous data flows using modern JavaScript techniques",
+    "Built reusable React components aligned with design systems and coding standards",
+    "Applied Git-based workflows including branching, pull requests, and collaborative code reviews",
+    "Worked within agile development processes including sprint planning, stand-ups, and retrospectives",
+    "Debugged and resolved cross-browser compatibility issues and runtime errors in real-world applications",
+  ],
+  projectsBuilt: [
+    {
+      title: "Feature Module for Client Web App",
+      description:
+        "Designed and implemented a feature module for a client-facing web application, including UI components, state management, and API integration, delivered within a sprint cycle.",
+    },
+    {
+      title: "Internal Dashboard Enhancement",
+      description:
+        "Enhanced an internal analytics dashboard by adding interactive data visualization components and optimizing API calls, improving performance and reducing load time.",
+    },
+  ],
+},
+
+  {
+  id: 26,
+  category: "Web Development",
+  title: "Web Development Internship",
+  organization: "Techsonix Solutions",
+  date: "May 2025",
+  type: "Internship",
+  isRealCertificate: true,
+  description:
+    "Successfully completed a web development internship at Techsonix Solutions, contributing to client-facing projects and gaining hands-on experience in full-stack development within a professional team environment.",
+  longDescription:
+    "This web development internship at Techsonix Solutions provided a structured, industry-oriented experience in modern software development. During the internship, I worked on real client projects, translating requirements into responsive and functional web applications. I collaborated within a team environment, followed agile workflows, and adhered to industry best practices for writing clean, maintainable code. The program emphasized frontend development with React, integration with REST APIs, and version control using Git. This experience significantly strengthened my ability to work on production-level applications and adapt to real-world development environments.",
+  credentialUrl: "#",
+  badge: "💻",
+  image: techsonixSolutionsImg,
+  skills: [
+    "HTML5 & CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Responsive Web Design",
+    "REST API Integration",
+    "Git & GitHub",
+    "UI/UX Implementation",
+    "Agile / Scrum Workflow",
+  ],
+  whatILearned: [
+    "Developed responsive, cross-browser-compatible web interfaces for client-facing applications",
+    "Built reusable React components aligned with project design systems and coding standards",
+    "Integrated REST APIs using modern JavaScript techniques (Fetch, Axios) for dynamic data handling",
+    "Applied Git workflows including branching, pull requests, and collaborative code reviews",
+    "Worked within agile development processes including sprint planning, stand-ups, and iterative delivery",
+    "Debugged and optimized frontend performance and UI consistency in real-world applications",
+  ],
+  projectsBuilt: [
+    {
+      title: "Client Web Application Feature",
+      description:
+        "Designed and implemented a feature for a client-facing web application, including UI components, state management, and API integration, delivered within project timelines.",
+    },
+    {
+      title: "Responsive Landing Page",
+      description:
+        "Developed a fully responsive, mobile-first landing page from design mockups, ensuring cross-browser compatibility and optimized performance.",
+    },
+  ],
+},
+
+  {
+  id: 28,
+  category: "Web Development",
+  title: "Web Development Internship",
+  organization: "ICC Wayspire",
+  date: "Aug 2025 – Oct 2025",
+  type: "Internship",
+  isRealCertificate: true,
+  description:
+    "Successfully completed a web development internship at ICC Wayspire, gaining hands-on experience building real-world web applications and working within professional frontend and full-stack development workflows.",
+  longDescription:
+    "This web development internship at ICC Wayspire provided a structured, industry-oriented experience in modern web development. During the internship, I worked on real-world projects, translating design specifications into responsive and interactive web interfaces while integrating backend services through REST APIs. I collaborated within a professional team environment, followed agile methodologies, and adhered to best practices for writing clean, maintainable code. The program emphasized component-based development using React, version control with Git, and delivering production-ready features within defined timelines. This experience significantly strengthened my practical development skills and readiness for real-world software engineering roles.",
+  credentialUrl: "#",
+  badge: "🌐",
+  image: iccWayspireImg,
+  skills: [
+    "HTML5 & CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Responsive Web Design",
+    "REST API Integration",
+    "Git & GitHub",
+    "UI/UX Implementation",
+    "Agile / Scrum Workflow",
+  ],
+  whatILearned: [
+    "Built responsive, cross-browser-compatible web interfaces for real-world applications",
+    "Developed reusable React components aligned with project design systems and coding standards",
+    "Integrated REST APIs using Fetch and Axios for dynamic data-driven interfaces",
+    "Applied Git workflows including feature branching, pull requests, and collaborative code reviews",
+    "Worked within agile processes including sprint planning, stand-ups, and iterative delivery",
+    "Debugged and resolved UI and performance issues in production-level code",
+  ],
+  projectsBuilt: [
+    {
+      title: "Client-Facing Web Application Module",
+      description:
+        "Designed and implemented a module for a client web application, including UI components, state management, and API integration, delivered within sprint timelines.",
+    },
+    {
+      title: "Responsive UI Component Library",
+      description:
+        "Built a reusable, responsive UI component library following a design system to ensure consistency and accelerate development across projects.",
+    },
+  ],
+},
+
+  {
+  id: 53,
+  category: "Web Development",
+  title: "The Complete Full-Stack Web Development Bootcamp",
+  organization: "Udemy",
+  date: "March 2026",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Completed Dr. Angela Yu's 62-hour Full-Stack Web Development Bootcamp on Udemy, mastering end-to-end web development including frontend, backend, databases, and deployment.",
+  longDescription:
+    "The Complete Full-Stack Web Development Bootcamp by Dr. Angela Yu is a comprehensive, project-driven programme covering the entire modern web development stack. Over 62 hours, I built a strong foundation in frontend technologies (HTML5, CSS3, JavaScript, React) and backend development (Node.js, Express), along with database management using MongoDB and PostgreSQL. The course emphasized real-world project development, RESTful API design, authentication, and deployment practices. By completing this bootcamp, I developed the ability to design, build, and deploy scalable, production-ready full-stack applications independently.",
+  credentialUrl: "https://ude.my/UC-adea6d27-8a36-4a15-af2b-f0dbfa5079be",
+  badge: "🌐",
+  image: udemyFullStackImg,
+  skills: [
+    "HTML5 & CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Node.js & Express",
+    "MongoDB & Mongoose",
+    "PostgreSQL",
+    "REST API Design",
+    "Authentication & Security",
+    "Git & GitHub",
+    "Responsive Web Design",
+  ],
+  whatILearned: [
+    "Built responsive and modern UIs using HTML5, CSS3 (Flexbox, Grid), and JavaScript ES6+",
+    "Developed dynamic frontend applications using React with hooks and component-based architecture",
+    "Designed and implemented RESTful APIs using Node.js and Express",
+    "Integrated databases including MongoDB (NoSQL) and PostgreSQL (SQL) for full-stack applications",
+    "Implemented authentication systems using sessions, cookies, and JWT",
+    "Applied best practices for web security, environment variables, and error handling",
+    "Deployed full-stack applications using modern hosting platforms and Git-based workflows",
+  ],
+  projectsBuilt: [
+    {
+      title: "Full-Stack Blog Platform",
+      description:
+        "Built a complete blog application with user authentication, CRUD operations, MongoDB integration, and a React frontend, demonstrating full end-to-end development.",
+    },
+    {
+      title: "RESTful API System",
+      description:
+        "Designed and developed a production-style REST API with Express, including routing, middleware, database integration, and secure authentication.",
+    },
+  ],
+},
+
+  {
+  id: 29,
+  category: "Web Development",
+  title: "Web Development Training Program",
+  organization: "TCC Wayspire",
+  date: "Aug 2025 – Oct 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Completed a 3-month structured web development training program at TCC Wayspire, covering frontend and full-stack technologies through hands-on, project-based learning.",
+  longDescription:
+    "This web development training program at TCC Wayspire provided a structured, industry-oriented foundation in modern web development. Over the course of three months, I gained hands-on experience across both frontend and backend technologies, progressing from core fundamentals to building full-stack applications. The program emphasized project-based learning, clean coding practices, and real-world development workflows. I worked with technologies including HTML, CSS, JavaScript, React, Node.js, and REST APIs while also applying version control using Git. This training served as a strong foundation that directly supported my internship experience at Wayspire, strengthening both my technical skills and development discipline.",
+  credentialUrl: "#",
+  badge: "🌐",
+  image: tccWayspireImg,
+  skills: [
+    "HTML5 & CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Responsive Web Design",
+    "Node.js & Express",
+    "REST API Integration",
+    "Git & GitHub",
+    "UI/UX Best Practices",
+  ],
+  whatILearned: [
+    "Built responsive layouts using HTML5, CSS3, Flexbox, and Grid",
+    "Developed dynamic frontend applications using JavaScript ES6+ and React.js",
+    "Integrated REST APIs to handle real-time data in web applications",
+    "Applied Git and GitHub for version control and collaborative workflows",
+    "Developed backend functionality using Node.js and Express",
+    "Followed UI/UX best practices to create user-friendly and accessible interfaces",
+  ],
+  projectsBuilt: [
+    {
+      title: "Full-Stack Web Application",
+      description:
+        "Built a full-stack application using React, Node.js, and REST APIs, demonstrating end-to-end development from frontend UI to backend integration.",
+    },
+    {
+      title: "Responsive Multi-Page Website",
+      description:
+        "Developed a fully responsive, mobile-first website using HTML, CSS, and JavaScript with modern layout techniques and cross-browser compatibility.",
+    },
+  ],
+},
+
+  {
+  id: 30,
+  category: "Web Development",
+  title: "Project Completion — React Router SPA & Full-Stack Weather App",
+  organization: "Wayspire Ed-Tech Private Limited",
+  date: "Aug 2025 – Oct 2025",
+  type: "Project",
+  isRealCertificate: true,
+  description:
+    "Successfully delivered two industry-based projects at Wayspire — a React Router Single Page Application and a Full-Stack Weather App — demonstrating end-to-end web development skills.",
+  longDescription:
+    "This project completion certification from Wayspire Ed-Tech Private Limited recognises the successful design and delivery of two industry-level web applications during a structured 3-month programme (August to October 2025). The work involved building a React Router-based Single Page Application with dynamic client-side navigation, as well as a Full-Stack Weather Application integrating real-time weather APIs. The projects emphasized production-grade development practices including component-based architecture, state management with React hooks, REST API integration, and responsive UI design. This experience demonstrated the ability to translate concepts into working applications and deliver complete, functional software solutions in a professional environment.",
+  credentialUrl: "#",
+  badge: "⛅",
+  image: pccWayspireImg,
+  skills: [
+    "React.js",
+    "React Router (SPA)",
+    "Full-Stack Development",
+    "REST API Integration",
+    "JavaScript (ES6+)",
+    "Node.js",
+    "Responsive Design",
+    "Git & GitHub",
+  ],
+  whatILearned: [
+    "Built a dynamic Single Page Application using React Router with route-based navigation",
+    "Integrated real-time weather data using external APIs and handled asynchronous data flows",
+    "Developed a full-stack application connecting frontend React UI with backend services",
+    "Applied React hooks (useState, useEffect) for state and lifecycle management",
+    "Designed responsive interfaces ensuring usability across devices",
+    "Followed professional workflows including version control, debugging, and iterative development",
+  ],
+  projectsBuilt: [
+    {
+      title: "React Router SPA",
+      description:
+        "Developed a multi-page SPA using React Router with dynamic routing, structured components, and smooth navigation between views.",
+    },
+    {
+      title: "Full-Stack Weather App",
+      description:
+        "Built a full-stack weather application integrating a live API to display real-time forecasts with a responsive React frontend and backend integration.",
+    },
+  ],
+},
+
+
   /* ================= OTHER ================= */
 
   {
-    id: 19,
-    category: "Web Development",
-    title: "Frontend Web Development Internship",
-    organization: "VT (Vaishnav Technologies)",
-    date: "2025",
-    type: "Internship",
-    isRealCertificate: true,
-    description:
-      "Completed a frontend web development internship, gaining hands-on experience building responsive UIs, implementing modern design systems, and working in a professional development environment.",
-    longDescription:
-      "This frontend web development internship at VT (Vaishnav Technologies) provided an immersive, real-world engineering experience that significantly levelled up my practical development skills. Over the course of the programme, I worked on live projects, translating design mockups into fully functional, responsive web interfaces. I collaborated within a structured team environment, participated in code reviews, and followed industry-standard development workflows — gaining the kind of hands-on exposure that bridges the gap between academic learning and professional practice.",
-    credentialUrl: "#",
-    badge: "🌐",
-    image: vtFrontendInternshipImg,
-    skills: [
-      "HTML5 & CSS3",
-      "JavaScript (ES6+)",
-      "Responsive Web Design",
-      "React.js",
-      "Tailwind CSS",
-      "Git & GitHub",
-      "UI/UX Implementation",
-      "Cross-Browser Compatibility",
-    ],
-    whatILearned: [
-      "Built fully responsive, cross-browser-compatible web pages from design specifications",
-      "Implemented modern UI components using HTML5, CSS3, and JavaScript (ES6+)",
-      "Applied React.js to develop reusable component-based interfaces for dynamic web applications",
-      "Used Git and GitHub for version control, branching, and collaborative code management",
-      "Followed professional development workflows including code reviews, task tracking, and sprint delivery",
-      "Gained practical experience translating Figma/design mockups into pixel-accurate frontend code",
-    ],
-    projectsBuilt: [
-      {
-        title: "Responsive Business Landing Page",
-        description:
-          "Designed and developed a fully responsive multi-section landing page with smooth animations, mobile-first layout, and optimised performance metrics as part of the internship deliverables.",
-      },
-      {
-        title: "Interactive UI Component Library",
-        description:
-          "Built a set of reusable React components (navigation, cards, modals, forms) following the project's design system, enabling faster and consistent UI development across the team.",
-      },
-    ],
-  },
+  id: 16,
+  category: "Others",
+  title: "Python Using AI Workshop",
+  organization: "Skill Development & Training Program",
+  date: "May 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Completed a hands-on workshop on Python programming enhanced with AI tools, covering core syntax, automation, data handling, and AI-assisted coding techniques.",
+  longDescription:
+    "This intensive workshop bridged traditional Python programming with modern AI-assisted development workflows. Participants learned Python from fundamentals through practical projects, while simultaneously leveraging AI tools (ChatGPT, GitHub Copilot) to write, debug, and optimise code more efficiently. The programme covered core Python concepts including syntax, data structures, file handling, web scraping, and automation — all reinforced through real-world applications and AI-driven productivity techniques. It highlights the growing importance of integrating AI into modern software development workflows.",
+  credentialUrl: "#",
+  badge: "🐍",
+  image: pythonAIWorkshopImg,
+  skills: [
+    "Python 3",
+    "AI-Assisted Coding (ChatGPT / Copilot)",
+    "Data Structures & Algorithms",
+    "File Handling & Automation",
+    "Web Scraping (BeautifulSoup)",
+    "Pandas & NumPy",
+    "Debugging & Refactoring",
+    "Scripting & CLI Tools",
+  ],
+  whatILearned: [
+    "Mastered Python core syntax including variables, control flow, functions, OOP, and modules",
+    "Used ChatGPT and GitHub Copilot to generate, explain, and refactor Python code efficiently",
+    "Applied Pandas and NumPy for data manipulation and numerical computation tasks",
+    "Automated repetitive file-system and data-processing tasks using Python scripts",
+    "Scraped and parsed web data using BeautifulSoup and Requests",
+    "Developed an AI-assisted debugging workflow to resolve errors faster and improve code understanding",
+  ],
+  projectsBuilt: [
+    {
+      title: "AI-Powered Data Cleaner",
+      description:
+        "Built a Python script that processes raw CSV data, uses Pandas to detect and fix common data quality issues (null values, duplicates, type mismatches), and generates a cleaned output file with AI-assisted rules.",
+    },
+    {
+      title: "Web Scraper & Report Generator",
+      description:
+        "Developed a BeautifulSoup-based scraper to extract structured data from websites, store it in a Pandas DataFrame, and export automated, formatted reports in Excel.",
+    },
+  ],
+},
 
   {
-    id: 20,
-    category: "Web Development",
-    title: "Web Development Internship",
-    organization: "CODEXINTERN",
-    date: "2025",
-    type: "Internship",
-    isRealCertificate: true,
-    description:
-      "Completed a web development internship at CODEXINTERN, building real-world web applications and gaining professional experience in full-stack development workflows.",
-    longDescription:
-      "This web development internship at CODEXINTERN provided a rigorous, production-focused introduction to professional software engineering. Working alongside experienced developers, I contributed to live web projects from initial setup through deployment — writing clean, maintainable code, participating in daily stand-ups, and delivering features on schedule. The programme emphasised industry practices: version control with Git, component-driven development, RESTful API integration, and thorough testing. This internship was a defining experience that bridged my academic knowledge with the demands of real-world web development.",
-    credentialUrl: "#",
-    badge: "💻",
-    image: codexWebInternshipImg,
-    skills: [
-      "HTML5 & CSS3",
-      "JavaScript (ES6+)",
-      "React.js",
-      "Node.js & Express",
-      "REST API Integration",
-      "Git & GitHub",
-      "Responsive Design",
-      "Agile / Scrum Workflow",
-    ],
-    whatILearned: [
-      "Developed and shipped production-ready web features across the full stack under senior developer guidance",
-      "Integrated third-party REST APIs and managed asynchronous data flows using Fetch and Axios",
-      "Built reusable React components following the project's established design system and coding standards",
-      "Applied Git branching strategies (feature branches, pull requests, code reviews) in a team environment",
-      "Participated in agile sprints, daily stand-ups, and sprint retrospectives with the engineering team",
-      "Debugged and fixed cross-browser layout issues and JavaScript runtime errors in production code",
-    ],
-    projectsBuilt: [
-      {
-        title: "Feature Module for Client Web App",
-        description:
-          "Designed and implemented a new feature module for a client-facing web application, including UI components, state management, and API integration — delivered within a 2-week sprint.",
-      },
-      {
-        title: "Internal Dashboard Enhancement",
-        description:
-          "Enhanced an internal analytics dashboard by adding interactive data visualisation components and optimising API calls, reducing load time by 30%.",
-      },
-    ],
-  },
+  id: 18,
+  category: "Others",
+  title: "AI Tools & ChatGPT Workshop",
+  organization: "Skill Development & Training Program",
+  date: "May 2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Completed a practical workshop on leveraging AI tools — including ChatGPT and prompt engineering — to enhance productivity across writing, coding, research, and problem-solving.",
+  longDescription:
+    "This hands-on AI Tools & ChatGPT Workshop focused on building practical skills in using modern generative AI technologies effectively. The programme covered how large language models work, advanced prompt engineering techniques, and real-world workflows for applying AI in writing, coding, research, data analysis, and content creation. Emphasis was placed on responsible AI usage — understanding limitations, avoiding hallucinations, and verifying outputs — enabling participants to confidently integrate AI into professional and development workflows.",
+  credentialUrl: "#",
+  badge: "🤖",
+  image: aiToolsChatGPTImg,
+  skills: [
+    "ChatGPT & GPT-4",
+    "Prompt Engineering",
+    "Generative AI Workflows",
+    "AI-Assisted Writing & Editing",
+    "AI-Assisted Coding",
+    "Research Acceleration with AI",
+    "Critical Evaluation of AI Outputs",
+    "AI Ethics & Responsible Use",
+  ],
+  whatILearned: [
+    "Understood the fundamentals of large language models (LLMs), including capabilities and limitations",
+    "Applied prompt engineering techniques such as role prompting, few-shot prompting, and context framing",
+    "Used ChatGPT to accelerate coding tasks including debugging, code generation, and explanation",
+    "Automated writing workflows including drafting emails, reports, and documentation with AI assistance",
+    "Integrated AI tools into research workflows for summarisation, comparison, and insight extraction",
+    "Evaluated AI-generated outputs critically to identify inaccuracies, biases, and hallucinations",
+  ],
+  projectsBuilt: [
+    {
+      title: "AI-Powered Content Generator",
+      description:
+        "Developed a structured prompt library and workflow using ChatGPT to generate and refine professional content such as blog posts, LinkedIn articles, and project descriptions.",
+    },
+    {
+      title: "Code Review & Debugging Assistant",
+      description:
+        "Created an AI-assisted code review workflow using prompt templates to identify bugs, suggest improvements, and generate test cases for existing codebases.",
+    },
+  ],
+},
 
   {
-    id: 26,
-    category: "Web Development",
-    title: "Web Development Internship",
-    organization: "Techsonix Solutions",
-    date: "2025",
-    type: "Internship",
-    isRealCertificate: true,
-    description:
-      "Completed a web development internship at Techsonix Solutions, contributing to live client projects and gaining hands-on experience in full-stack development within a professional team environment.",
-    longDescription:
-      "This web development internship at Techsonix Solutions provided a comprehensive, employment-grade introduction to professional software development. Working within a structured engineering team, I contributed to real client-facing web projects from requirements gathering through to delivery — writing clean, maintainable code and following industry-standard workflows. The programme offered deep practical exposure to modern web technologies, collaborative development practices, and the kind of problem-solving discipline that professional projects demand. This internship played a significant role in bridging academic learning with the expectations and pace of a real development environment.",
-    credentialUrl: "#",
-    badge: "💻",
-    image: techsonixSolutionsImg,
-    skills: [
-      "HTML5 & CSS3",
-      "JavaScript (ES6+)",
-      "React.js",
-      "Responsive Web Design",
-      "REST API Integration",
-      "Git & GitHub",
-      "UI/UX Implementation",
-      "Agile / Scrum Workflow",
-    ],
-    whatILearned: [
-      "Built and delivered responsive, cross-browser-compatible web interfaces for live client projects",
-      "Developed reusable React components following the team's established design system and coding standards",
-      "Integrated REST APIs to connect frontend UIs with backend services using Fetch and Axios",
-      "Practiced Git-based version control workflows including feature branching, pull requests, and code reviews",
-      "Participated in agile sprints, daily stand-ups, and retrospectives within a professional team",
-      "Debugged and resolved frontend issues in production code, improving application stability and performance",
-    ],
-    projectsBuilt: [
-      {
-        title: "Client Web Application Feature",
-        description:
-          "Designed and implemented a new feature for a client-facing web application — including UI components, state management, and API integration — delivered on schedule within the internship programme.",
-      },
-      {
-        title: "Responsive Landing Page",
-        description:
-          "Built a fully responsive, mobile-first landing page for a client project, achieving a clean design implementation from mockup to production with optimised performance and cross-browser compatibility.",
-      },
-    ],
-  },
+  id: 58,
+  category: "Others",
+  title: "Unstop Talent Park 2025",
+  organization: "Unstop",
+  date: "2025",
+  type: "Internship",
+  isRealCertificate: true,
+  description:
+    "Certificate of participation in Unstop Talent Park 2025 — a flagship career and talent development programme connecting students with industry opportunities.",
+  longDescription:
+    "Unstop Talent Park 2025 is a flagship talent discovery and career development programme by Unstop, bringing together driven students from across India and connecting them with leading companies and industry professionals. This certificate recognises active participation in a platform designed to enhance professional readiness, industry exposure, and career opportunities. Representing IITRAM, Ahmedabad, participation in this programme reflects a proactive approach to career growth, networking, and continuous skill development beyond academic learning.",
+  credentialUrl: "#",
+  badge: "🌟",
+  image: unstopTalentParkImg,
+  skills: [
+    "Professional Development",
+    "Career Readiness",
+    "Industry Networking",
+    "Personal Branding",
+    "Communication Skills",
+    "Opportunity Awareness",
+    "Competitive Mindset",
+  ],
+  whatILearned: [
+    "Engaged with Unstop’s talent ecosystem to gain exposure to recruiters and industry opportunities",
+    "Developed career readiness skills through structured programme activities",
+    "Learned effective networking strategies and professional communication practices",
+    "Improved personal branding and profile optimisation for internships and placements",
+    "Gained insights into hiring processes and expectations across industries",
+  ],
+  projectsBuilt: [
+    {
+      title: "Professional Profile & Portfolio",
+      description:
+        "Refined and optimised professional profiles and portfolio to effectively showcase skills, projects, and achievements to recruiters and employers.",
+    },
+  ],
+},
 
   {
-    id: 28,
-    category: "Web Development",
-    title: "Web Development Internship",
-    organization: "ICC Wayspire",
-    date: "2025",
-    type: "Internship",
-    isRealCertificate: true,
-    description:
-      "Completed a web development internship at ICC Wayspire, building real-world web applications and gaining professional experience in frontend and full-stack development workflows.",
-    longDescription:
-      "This web development internship at ICC Wayspire offered a structured, professionally supervised programme that provided deep hands-on experience across the web development stack. Working alongside experienced engineers, I contributed to live projects — translating design specifications into functional, responsive interfaces, integrating APIs, and following industry-standard development practices. The programme emphasised code quality, collaborative workflows, and delivering production-ready features on schedule. This internship was a key step in bridging the gap between academic knowledge and real-world software engineering expectations.",
-    credentialUrl: "#",
-    badge: "🌐",
-    image: iccWayspireImg,
-    skills: [
-      "HTML5 & CSS3",
-      "JavaScript (ES6+)",
-      "React.js",
-      "Responsive Web Design",
-      "REST API Integration",
-      "Git & GitHub",
-      "UI/UX Implementation",
-      "Agile / Scrum Workflow",
-    ],
-    whatILearned: [
-      "Built responsive, cross-browser-compatible web interfaces from design specifications for live client projects",
-      "Developed and integrated reusable React components following the project's established design system",
-      "Connected frontend UIs to backend services via REST API integration using Fetch and Axios",
-      "Applied Git branching strategies including feature branches, pull requests, and code reviews in a team environment",
-      "Participated in agile sprints, daily stand-ups, and retrospectives as part of the engineering team",
-      "Improved debugging skills by identifying and resolving frontend issues in production code",
-    ],
-    projectsBuilt: [
-      {
-        title: "Client-Facing Web Application Module",
-        description:
-          "Designed and implemented a new module for a client web application, covering UI components, state management, and API integration — delivered on time within the internship programme.",
-      },
-      {
-        title: "Responsive UI Component Library",
-        description:
-          "Built a set of reusable, responsive UI components following the project design system, enabling faster and consistent development across the team's web projects.",
-      },
-    ],
-  },
+  id: 21,
+  category: "Others",
+  title: "ISP 49 FTC Webinar",
+  organization: "Internshala Student Partner (ISP)",
+  date: "2025",
+  type: "Course Completion",
+  isRealCertificate: true,
+  description:
+    "Participated in the ISP 49 FTC Webinar — a professional development session focused on industry trends, skill-building, and career growth strategies.",
+  longDescription:
+    "The ISP 49 FTC (Future Tech & Careers) Webinar, organised by the Internshala Student Partner (ISP) programme, was a structured professional development session designed to provide insights into emerging technology trends and career pathways. The webinar featured expert discussions on industry expectations, in-demand skills, and practical strategies for career growth. Participation reflects a proactive approach to continuous learning and staying aligned with evolving industry standards beyond academic coursework.",
+  credentialUrl: "#",
+  badge: "🎓",
+  image: ispFTCWebinarImg,
+  skills: [
+    "Professional Development",
+    "Industry Trend Awareness",
+    "Career Strategy",
+    "Networking",
+    "Technical Knowledge Awareness",
+    "Communication Skills",
+    "Problem-Solving Mindset",
+    "Lifelong Learning",
+  ],
+  whatILearned: [
+    "Gained awareness of emerging technology trends and their industry relevance",
+    "Understood key skills required for career growth in the tech domain",
+    "Developed insights into effective career planning and skill development strategies",
+    "Strengthened professional communication and engagement through interactive sessions",
+    "Built awareness of current hiring expectations and job market trends",
+    "Improved understanding of aligning academic learning with industry requirements",
+  ],
+  projectsBuilt: [
+    {
+      title: "Personal Career Development Plan",
+      description:
+        "Created a structured 6-month personal development roadmap outlining key skills, learning resources, and milestones aligned with industry expectations.",
+    },
+    {
+      title: "Industry Trend Summary Report",
+      description:
+        "Compiled a concise report summarising key insights from the webinar, including major technology trends and career strategies for future reference.",
+    },
+  ],
+},
 
   {
-    id: 53,
-    category: "Web Development",
-    title: "The Complete Full-Stack Web Development Bootcamp",
-    organization: "Udemy",
-    date: "March 2026",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed Dr. Angela Yu's flagship 62-hour Full-Stack Web Development Bootcamp on Udemy, covering front-end, back-end, databases, and deployment to build real-world web applications end to end.",
-    longDescription:
-      "The Complete Full-Stack Web Development Bootcamp by Dr. Angela Yu is one of the most comprehensive and highly-rated web development courses available. Spanning 62 hours of hands-on instruction, the bootcamp covered the entire modern web stack — from HTML5, CSS3, and JavaScript fundamentals through React, Node.js, Express, MongoDB, and RESTful API design. Each topic was reinforced with real project builds, and the programme concluded with a full-stack capstone that tied every concept together. This course solidified my expertise across both the client and server sides of web development, preparing me to architect, build, and deploy production-grade applications independently.",
-    credentialUrl: "https://ude.my/UC-adea6d27-8a36-4a15-af2b-f0dbfa5079be",
-    badge: "🌐",
-    image: udemyFullStackImg,
-    skills: [
-      "HTML5 & CSS3",
-      "JavaScript (ES6+)",
-      "React.js",
-      "Node.js & Express",
-      "MongoDB & Mongoose",
-      "REST API Design",
-      "PostgreSQL",
-      "Git & GitHub",
-      "Responsive Web Design",
-      "Authentication & Security",
-      "Web3 & DApps (Introduction)",
-    ],
-    whatILearned: [
-      "Built responsive web pages using HTML5 semantic markup, CSS3 Flexbox, Grid, and animations",
-      "Developed interactive frontend applications using JavaScript ES6+ and React.js with hooks",
-      "Created RESTful APIs with Node.js and Express following MVC architecture",
-      "Integrated MongoDB and PostgreSQL databases with Mongoose and pg for full-stack persistence",
-      "Implemented user authentication and authorisation using sessions, cookies, and JWT",
-      "Applied web security best practices including input sanitisation and environment variable management",
-      "Deployed full-stack applications using cloud platforms and version-controlled workflows",
-    ],
-    projectsBuilt: [
-      {
-        title: "Full-Stack Blog Application",
-        description:
-          "Built a complete full-stack blog platform with user authentication, CRUD operations, MongoDB persistence, and a polished React frontend — demonstrating end-to-end web development proficiency.",
-      },
-      {
-        title: "RESTful API with Node.js & Express",
-        description:
-          "Designed and built a production-style REST API with Express, complete with route handling, middleware, database integration, and JSON Web Token authentication.",
-      },
-    ],
-  },
+  id: 24,
+  category: "Others",
+  title: "Suprathon 2025",
+  organization: "Suprazo Technologies & CodeElevate Academy",
+  date: "2025",
+  type: "Hackathon",
+  isRealCertificate: true,
+  description:
+    "Participated in Suprathon 2K25 — a national-level virtual hackathon focused on building innovative solutions under time-bound conditions.",
+  longDescription:
+    "Suprathon 2K25 was a national-level virtual hackathon organised by Suprazo Technologies in collaboration with CodeElevate Academy, bringing together participants from across the country to solve real-world challenges through technology. During the event, participants worked within a limited timeframe to ideate, design, and develop innovative solutions, followed by presenting their approach and implementation. The hackathon environment encouraged rapid problem-solving, teamwork, and effective communication of technical ideas, providing valuable exposure to competitive development scenarios.",
+  credentialUrl: "#",
+  badge: "🏅",
+  image: suprathon2025Img,
+  skills: [
+    "Problem Solving",
+    "Rapid Prototyping",
+    "Team Collaboration",
+    "React.js",
+    "Node.js",
+    "UI/UX Design",
+    "Pitch & Presentation",
+    "Agile Thinking",
+  ],
+  whatILearned: [
+    "Approached real-world problem statements with structured ideation and solution design",
+    "Collaborated effectively in a team environment under time constraints",
+    "Made quick technical decisions to balance speed and functionality",
+    "Improved ability to present technical ideas clearly during evaluations",
+    "Gained exposure to competitive hackathon workflows and development cycles",
+    "Strengthened focus on building MVPs within limited timeframes",
+  ],
+  projectsBuilt: [
+    {
+      title: "Hackathon Prototype",
+      description:
+        "Developed a working prototype addressing the problem statement, focusing on core functionality, responsive UI, and a demo-ready implementation within the hackathon timeframe.",
+    },
+    {
+      title: "Solution Pitch Presentation",
+      description:
+        "Prepared and presented a structured solution including problem understanding, technical approach, and prototype demonstration to evaluators.",
+    },
+  ],
+},
 
   {
-    id: 29,
-    category: "Web Development",
-    title: "Web Development Course",
-    organization: "TCC Wayspire",
-    date: "2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Completed a comprehensive web development course at TCC Wayspire, covering core frontend and full-stack technologies through structured lessons and hands-on project work.",
-    longDescription:
-      "This web development course at TCC Wayspire provided a thorough, structured education in modern frontend and full-stack web development. The programme took a project-driven approach, combining conceptual instruction with hands-on implementation across every topic — from foundational HTML and CSS through JavaScript, React, and backend integration. Emphasis was placed on building real, deployable web applications and following professional coding standards. Completing this course reinforced core web development fundamentals while expanding practical skills in modern frameworks and development workflows.",
-    credentialUrl: "#",
-    badge: "🌐",
-    image: tccWayspireImg,
-    skills: [
-      "HTML5 & CSS3",
-      "JavaScript (ES6+)",
-      "React.js",
-      "Responsive Web Design",
-      "REST API Integration",
-      "Git & GitHub",
-      "Node.js & Express",
-      "UI/UX Best Practices",
-    ],
-    whatILearned: [
-      "Mastered core HTML5 and CSS3 including Flexbox, Grid, and responsive design patterns",
-      "Built dynamic, interactive web applications using JavaScript ES6+ and React.js",
-      "Integrated REST APIs into frontend applications to fetch and display live data",
-      "Applied Git and GitHub for version control, branching, and project management",
-      "Developed backend-connected web apps using Node.js and Express",
-      "Followed UI/UX best practices to build accessible, user-friendly interfaces",
-    ],
-    projectsBuilt: [
-      {
-        title: "Full-Stack Web Application",
-        description:
-          "Designed and developed a full-stack web application as the course capstone, featuring a React frontend, a Node.js/Express API, and REST data integration — demonstrating end-to-end web development proficiency.",
-      },
-      {
-        title: "Responsive Multi-Page Website",
-        description:
-          "Built a fully responsive, mobile-first multi-page website using HTML5, CSS3, and JavaScript, applying Flexbox and Grid layouts with smooth animations and cross-browser compatibility.",
-      },
-    ],
-  },
+  id: 25,
+  category: "Others",
+  title: "Galactic Problem Solver",
+  organization: "NASA International Space Apps Challenge",
+  date: "October 2024",
+  type: "Hackathon",
+  isRealCertificate: true,
+  description:
+    "Earned the 'Galactic Problem Solver' recognition at the NASA International Space Apps Challenge — a global 48-hour hackathon solving real-world space and Earth challenges.",
+  longDescription:
+    "The NASA International Space Apps Challenge is the world’s largest global hackathon, bringing together thousands of participants to solve real-world challenges using open data from NASA and its partner space agencies. The 'Galactic Problem Solver' recognition is awarded to participants who actively contribute and successfully complete a project during the event. During this 48-hour hackathon, our team collaborated to design and develop an innovative solution addressing a NASA-defined problem, leveraging open datasets, rapid prototyping, and structured problem-solving approaches. The experience strengthened both technical and collaborative skills in a high-intensity, global innovation environment.",
+  credentialUrl: "#",
+  badge: "🚀",
+  image: galacticProblemSolverImg,
+  skills: [
+    "Problem Solving",
+    "Rapid Prototyping",
+    "Team Collaboration",
+    "Data Analysis",
+    "Creative Thinking",
+    "Open Data Utilisation",
+    "Pitch & Presentation",
+    "Agile Development",
+  ],
+  whatILearned: [
+    "Worked on a real-world problem using open NASA datasets and global challenge frameworks",
+    "Built and iterated a functional prototype within a 48-hour hackathon sprint",
+    "Collaborated in a team environment to manage ideation, development, and presentation simultaneously",
+    "Improved ability to communicate complex solutions clearly during evaluations",
+    "Gained exposure to global hackathon standards and innovation workflows",
+    "Strengthened adaptability when working with open-ended problem statements",
+  ],
+  projectsBuilt: [
+    {
+      title: "NASA Space Apps Prototype",
+      description:
+        "Designed and developed a working prototype addressing a selected NASA challenge, focusing on usability, functionality, and a demo-ready implementation within the hackathon timeframe.",
+    },
+    {
+      title: "Hackathon Submission Package",
+      description:
+        "Prepared and submitted the complete project package including solution explanation, prototype demonstration, and supporting materials — earning the Galactic Problem Solver recognition.",
+    },
+  ],
+},
 
   {
-    id: 30,
-    category: "Web Development",
-    title: "Project Completion — React Router SPA & Full-Stack Weather App",
-    organization: "Wayspire Ed-Tech Private Limited",
-    date: "Nov 2025",
-    type: "Internship",
-    isRealCertificate: true,
-    description:
-      "Completed an industry-based project building a React Router SPA and a Full-Stack Weather App at Wayspire Ed-Tech Private Limited from August to October 2025.",
-    longDescription:
-      "This Certificate of Project Completion from Wayspire Ed-Tech Private Limited recognises the successful delivery of two industry-based projects: a React Router Single Page Application and a Full-Stack Weather App. Spanning three months (August to October 2025), the programme provided a structured, professionally supervised environment to design, build, and ship real-world web applications — applying React Router for client-side navigation, integrating live weather APIs, and implementing a full-stack architecture. The projects bridged academic React knowledge with the demands of production-grade development, reinforcing skills in component architecture, routing, API integration, state management, and full-stack deployment.",
-    credentialUrl: "#",
-    badge: "⛅",
-    image: pccWayspireImg,
-    skills: [
-      "React.js",
-      "React Router (SPA)",
-      "REST API Integration",
-      "Full-Stack Development",
-      "Weather API",
-      "JavaScript (ES6+)",
-      "Responsive Design",
-      "Git & GitHub",
-    ],
-    whatILearned: [
-      "Implemented client-side routing using React Router to build a seamless Single Page Application experience",
-      "Integrated a live Weather API to fetch, parse, and display real-time weather data dynamically",
-      "Designed a full-stack architecture connecting a React frontend with a backend API layer",
-      "Managed component state and side effects using React hooks (useState, useEffect)",
-      "Applied responsive design principles to ensure a polished experience across all screen sizes",
-      "Followed professional project delivery workflows including version control, code reviews, and milestone tracking",
-    ],
-    projectsBuilt: [
-      {
-        title: "React Router SPA",
-        description:
-          "Built a multi-page Single Page Application using React Router, featuring dynamic route-based navigation, protected routes, and a clean component-driven architecture — completed as part of the Wayspire industry project.",
-      },
-      {
-        title: "Full-Stack Weather App",
-        description:
-          "Developed a full-stack weather application that integrates a live Weather API to display real-time forecasts, location-based data, and a responsive UI — with a Node.js backend and React frontend.",
-      },
-    ],
-  },
+  id: 27,
+  category: "Others",
+  title: "StellerNet Hackathon — Winner (Best in Track)",
+  organization: "StellerNet",
+  date: "2025",
+  type: "Hackathon",
+  isRealCertificate: true,
+  description:
+    "Won 'Best in Track' at the StellerNet Hackathon for the project 'Cosmic Explorer', demonstrating strong problem-solving, innovation, and execution under time constraints.",
+  longDescription:
+    "The StellerNet Hackathon was a competitive innovation event where participants designed and developed solutions to real-world challenges within a limited timeframe. I secured the 'Best in Track' award for the project 'Cosmic Explorer', recognising excellence in problem-solving, technical implementation, and overall solution quality. The project involved rapid ideation, system design, and prototype development, followed by a live demonstration to judges. This achievement highlights the ability to build impactful solutions under pressure while maintaining strong collaboration and presentation standards.",
+  credentialUrl: "#",
+  badge: "🏆",
+  image: stellerNetImg,
+  skills: [
+    "Problem Solving",
+    "Rapid Prototyping",
+    "Team Collaboration",
+    "Full-Stack Development",
+    "UI/UX Design",
+    "Agile Development",
+    "Pitch & Presentation",
+    "Creative Thinking",
+  ],
+  whatILearned: [
+    "Built a complete solution from ideation to prototype within strict hackathon timelines",
+    "Collaborated effectively in a high-pressure, fast-paced team environment",
+    "Made quick and impactful technical decisions balancing speed and quality",
+    "Delivered a live demo and communicated the solution clearly to judges",
+    "Strengthened ability to prioritise MVP development over unnecessary features",
+    "Gained experience in competitive problem-solving and innovation workflows",
+  ],
+  projectsBuilt: [
+    {
+      title: "Cosmic Explorer (Winning Project)",
+      description:
+        "Designed and developed the award-winning project 'Cosmic Explorer', featuring a functional prototype, structured architecture, and a demo-ready implementation — recognised as Best in Track at the StellerNet Hackathon.",
+    },
+    {
+      title: "Hackathon Pitch & Demo",
+      description:
+        "Prepared and delivered a structured presentation covering problem understanding, solution design, implementation, and impact — leading to the Best in Track recognition.",
+    },
+  ],
+},
 
   {
-    id: 16,
-    category: "Others",
-    title: "Python Using AI Workshop",
-    organization: "Skill Development & Training Program",
-    date: "May 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Hands-on workshop on Python programming accelerated with AI tools — covering core syntax, automation, data handling, and AI-assisted coding techniques.",
-    longDescription:
-      "This intensive workshop bridged traditional Python programming with modern AI-assisted development workflows. Participants learned Python from fundamentals through practical projects, while simultaneously leveraging AI tools (ChatGPT, GitHub Copilot) to write, debug, and optimise code faster. The programme covered everything from core Python syntax and data structures through file handling, web scraping, and automation — all reinforced by the productivity gains that AI pair-programming tools provide. It reflects the modern reality that software engineers who harness AI become significantly more effective.",
-    credentialUrl: "#",
-    badge: "🐍",
-    image: pythonAIWorkshopImg,
-    skills: [
-      "Python 3",
-      "AI-Assisted Coding (ChatGPT / Copilot)",
-      "Data Structures & Algorithms",
-      "File Handling & Automation",
-      "Web Scraping (BeautifulSoup)",
-      "Pandas & NumPy",
-      "Debugging & Refactoring",
-      "Scripting & CLI Tools",
-    ],
-    whatILearned: [
-      "Mastered Python core syntax: variables, control flow, functions, OOP, and modules",
-      "Used ChatGPT and GitHub Copilot to generate, explain, and refactor Python code efficiently",
-      "Applied Pandas and NumPy for data manipulation and numerical computation tasks",
-      "Automated repetitive file-system and data-processing tasks with Python scripts",
-      "Scraped and parsed web data using BeautifulSoup and Requests",
-      "Developed an AI-first debugging workflow to resolve errors faster and understand code deeper",
-    ],
-    projectsBuilt: [
-      {
-        title: "AI-Powered Data Cleaner",
-        description:
-          "Built a Python script that accepts a raw CSV, uses Pandas to detect and fix common data quality issues (nulls, duplicates, type mismatches), and generates a clean output file — with AI-suggested cleaning rules.",
-      },
-      {
-        title: "Web Scraper & Report Generator",
-        description:
-          "Developed a BeautifulSoup-based scraper that extracted structured data from a public website, stored results in a Pandas DataFrame, and exported a formatted Excel report automatically.",
-      },
-    ],
-  },
+  id: 55,
+  category: "Others",
+  title: "Frontend Battle — Vibe Coding Competition",
+  organization: "Indian Institute of Technology Bhubaneswar (via Unstop)",
+  date: "2025",
+  type: "Hackathon",
+  isRealCertificate: true,
+  description:
+    "Participated in Frontend Battle (Vibe Coding Competition), a frontend-focused coding challenge organised by IIT Bhubaneswar.",
+  longDescription:
+    "Frontend Battle (Vibe Coding Competition), organised by the Indian Institute of Technology Bhubaneswar and hosted on Unstop, is a competitive frontend development event focused on rapid UI creation and design execution. Representing IITRAM, Ahmedabad, I participated in this challenge, building a responsive and visually engaging interface under strict time constraints. The competition emphasised real-world frontend skills including layout structuring, responsiveness, and delivering polished UI solutions within a limited timeframe.",
+  credentialUrl: "#",
+  badge: "⚔️",
+  image: frontendBattleImg,
+  skills: [
+    "Frontend Development",
+    "HTML5 & CSS3",
+    "JavaScript (ES6+)",
+    "Responsive Web Design",
+    "UI/UX Implementation",
+    "React.js",
+    "Rapid Prototyping",
+    "Time-Bound Development",
+  ],
+  whatILearned: [
+    "Built a responsive frontend interface under strict competition time constraints",
+    "Improved rapid UI prototyping and implementation skills",
+    "Applied responsive design principles for cross-device compatibility",
+    "Strengthened ability to prioritise features and deliver within limited time",
+    "Gained exposure to competitive frontend development environments",
+  ],
+  projectsBuilt: [
+    {
+      title: "Frontend Battle Submission",
+      description:
+        "Developed and submitted a responsive frontend project featuring structured layout, clean UI components, and polished design — delivered within the competition timeframe.",
+    },
+  ],
+},
 
   {
-    id: 18,
-    category: "Others",
-    title: "AI Tools & ChatGPT Workshop",
-    organization: "Skill Development & Training Program",
-    date: "May 2025",
-    type: "Course Completion",
-    isRealCertificate: true,
-    description:
-      "Practical workshop on leveraging AI tools — ChatGPT, prompt engineering, and generative AI — to supercharge productivity across writing, coding, research, and problem-solving.",
-    longDescription:
-      "This hands-on AI Tools & ChatGPT Workshop was designed to turn participants into confident, productive users of the latest generative AI technologies. The programme covered the fundamentals of how large language models work, practical prompt engineering techniques, and real-world workflows for using ChatGPT and other AI tools to accelerate tasks in writing, coding, research, data analysis, and content creation. Emphasis was placed on critical thinking — understanding AI limitations, avoiding hallucinations, and verifying outputs — so participants could harness AI responsibly and effectively in professional contexts.",
-    credentialUrl: "#",
-    badge: "🤖",
-    image: aiToolsChatGPTImg,
-    skills: [
-      "ChatGPT & GPT-4",
-      "Prompt Engineering",
-      "Generative AI Workflows",
-      "AI-Assisted Writing & Editing",
-      "AI-Assisted Coding",
-      "Research Acceleration with AI",
-      "Critical Evaluation of AI Outputs",
-      "AI Ethics & Responsible Use",
-    ],
-    whatILearned: [
-      "Understood how large language models (LLMs) work and their capabilities and limitations",
-      "Applied advanced prompt engineering techniques: chain-of-thought, few-shot, role prompting, and context framing",
-      "Used ChatGPT to accelerate coding tasks — generating boilerplate, debugging errors, and explaining complex code",
-      "Automated writing workflows: drafting emails, reports, documentation, and summaries with AI editing",
-      "Integrated AI tools into research pipelines to summarise papers, extract insights, and compare sources",
-      "Critically evaluated AI-generated outputs to identify hallucinations, biases, and factual errors",
-    ],
-    projectsBuilt: [
-      {
-        title: "AI-Powered Content Generator",
-        description:
-          "Built a structured prompt library and workflow that uses ChatGPT to generate, refine, and format professional content (blog posts, LinkedIn articles, project descriptions) with consistent voice and quality.",
-      },
-      {
-        title: "Code Review & Debugging Assistant",
-        description:
-          "Developed a repeatable AI-assisted code review workflow using prompt templates to systematically identify bugs, suggest improvements, and generate unit tests for existing codebases.",
-      },
-    ],
-  },
+  id: 56,
+  category: "Others",
+  title: "Opencode'25 — OpenCode 2025",
+  organization: "Indian Institute of Information Technology, Allahabad (via Unstop)",
+  date: "2025",
+  type: "Hackathon",
+  isRealCertificate: true,
+  description:
+    "Participated in OpenCode 2025 (Opencode'25), a competitive coding event organised by IIIT Allahabad.",
+  longDescription:
+    "OpenCode 2025 (Opencode'25), organised by the Indian Institute of Information Technology (IIIT), Allahabad and hosted on Unstop, is a competitive programming event focused on problem-solving and algorithmic thinking. Representing IITRAM, Ahmedabad, I participated in this challenge, solving coding problems under time constraints. The competition emphasised logical reasoning, efficient coding, and the ability to translate problem statements into working solutions in a fast-paced environment.",
+  credentialUrl: "#",
+  badge: "💻",
+  image: opencodeImg,
+  skills: [
+    "Competitive Programming",
+    "Data Structures & Algorithms",
+    "Problem Solving",
+    "Algorithmic Thinking",
+    "Time-Bound Coding",
+    "Analytical Reasoning",
+  ],
+  whatILearned: [
+    "Solved coding problems under strict time constraints in a competitive environment",
+    "Applied data structures and algorithms to approach structured problem sets",
+    "Improved logical reasoning and analytical thinking through timed challenges",
+    "Enhanced speed and accuracy in writing correct and efficient code",
+    "Gained exposure to competitive programming standards and workflows",
+  ],
+  projectsBuilt: [
+    {
+      title: "OpenCode'25 Contest Solutions",
+      description:
+        "Solved multiple algorithmic problems during the competition, focusing on correctness, efficiency, and timely submission within the contest duration.",
+    },
+  ],
+},
 
   {
-    id: 58,
-    category: "Others",
-    title: "Unstop Talent Park 2025",
-    organization: "Unstop",
-    date: "2025",
-    type: "Internship",
-    isRealCertificate: true,
-    description:
-      "Certificate of Participation for Unstop Talent Park 2025 — a flagship career and talent development event by Unstop, connecting ambitious students with top industry opportunities.",
-    longDescription:
-      "Unstop Talent Park 2025 is Unstop's flagship talent discovery and career development programme, bringing together driven students from institutions across India and connecting them with leading companies and industry professionals. Signed by Ankit Aggarwal, Founder & CEO of Unstop, this certificate recognises participation in a platform-level event designed to sharpen professional skills, build industry exposure, and open doors to internship and placement opportunities. Representing IITRAM, Ahmedabad, participation in this programme demonstrates a proactive approach to career development and a commitment to building professional readiness beyond the classroom.",
-    credentialUrl: "#",
-    badge: "🌟",
-    image: unstopTalentParkImg,
-    skills: [
-      "Professional Development",
-      "Career Readiness",
-      "Industry Networking",
-      "Personal Branding",
-      "Communication Skills",
-      "Opportunity Awareness",
-      "Competitive Mindset",
-    ],
-    whatILearned: [
-      "Engaged with Unstop's talent development ecosystem, gaining visibility with top recruiters and companies",
-      "Developed professional readiness skills through the structured Talent Park programme activities",
-      "Built industry networking awareness and best practices for connecting with professionals",
-      "Strengthened personal branding and profile optimisation for competitive internship and placement opportunities",
-      "Gained exposure to the hiring processes and expectations of leading organisations across sectors",
-    ],
-    projectsBuilt: [
-      {
-        title: "Professional Profile & Portfolio",
-        description:
-          "As part of the Unstop Talent Park journey, refined and optimised professional profiles and a portfolio to effectively showcase skills, projects, and achievements to prospective employers and recruiters.",
-      },
-    ],
-  },
+  id: 57,
+  category: "Others",
+  title: "SuPrathon 2025 — National Level Virtual Hackathon",
+  organization: "SuPrazo Technologies (via Unstop)",
+  date: "2025",
+  type: "Hackathon",
+  isRealCertificate: true,
+  description:
+    "Participated in SuPrathon 2025, a national-level virtual hackathon organised by SuPrazo Technologies, representing Team Re-Zero 11 from IITRAM, Ahmedabad.",
+  longDescription:
+    "SuPrathon 2025 is a national-level virtual hackathon organised by SuPrazo Technologies and hosted on Unstop. Representing IITRAM, Ahmedabad as part of Team Re-Zero 11, I participated in this event, collaborating with teammates to design and develop a solution within a limited timeframe. The hackathon focused on problem-solving, teamwork, and delivering a functional prototype under virtual, time-constrained conditions, providing exposure to real-world competitive development environments.",
+  credentialUrl: "#",
+  badge: "🏅",
+  image: suprathonNationalImg,
+  skills: [
+    "Problem Solving",
+    "Rapid Prototyping",
+    "Team Collaboration",
+    "Full-Stack Development",
+    "React.js",
+    "Agile Thinking",
+    "Virtual Collaboration",
+    "Time-Bound Development",
+  ],
+  whatILearned: [
+    "Collaborated effectively in a virtual team environment to build a solution under time constraints",
+    "Translated problem statements into a structured and buildable prototype",
+    "Improved coordination across frontend and backend responsibilities",
+    "Strengthened decision-making and prioritisation in a fast-paced setting",
+    "Gained exposure to national-level hackathon workflows and expectations",
+  ],
+  projectsBuilt: [
+    {
+      title: "SuPrathon 2025 Prototype",
+      description:
+        "Developed a functional prototype as part of Team Re-Zero 11, focusing on core features and a demo-ready implementation within the hackathon timeframe.",
+    },
+  ],
+},
 
   {
-    id: 21,
-    category: "Others",
-    title: "ISP 49 FTC Webinar",
-    organization: "ISP (INTERNSHALA STUDENT PARTNER)",
-    date: "2025",
-    type: "Internship",
-    isRealCertificate: true,
-    description:
-      "Participated in the ISP 49 FTC Webinar — a professional development webinar covering industry trends, skill-building, and career growth strategies.",
-    longDescription:
-      "The ISP 49 FTC (Future Tech & Careers) Webinar was a structured professional development session organised by the INTERNSHALA STUDENT PARTNER, bringing together industry experts and aspiring professionals for an intensive knowledge-sharing experience. The webinar covered emerging trends in technology and career development, practical skill-building strategies, and first-hand insights from working professionals. Participation in this programme reflects a commitment to continuous learning and staying at the forefront of industry knowledge beyond formal academic study.",
-    credentialUrl: "#",
-    badge: "🎓",
-    image: ispFTCWebinarImg,
-    skills: [
-      "Professional Development",
-      "Industry Trend Awareness",
-      "Career Strategy",
-      "Networking",
-      "Technical Knowledge Update",
-      "Communication Skills",
-      "Problem-Solving Mindset",
-      "Lifelong Learning",
-    ],
-    whatILearned: [
-      "Gained exposure to emerging technology trends and their real-world industry applications",
-      "Developed strategic career planning skills through expert-led sessions and interactive discussions",
-      "Strengthened professional networking skills by engaging with peers and industry speakers",
-      "Acquired practical insights into skill gaps and how to bridge them for career advancement",
-      "Enhanced communication and presentation skills through webinar participation and Q&A sessions",
-      "Built awareness of the current job market landscape and in-demand competencies for tech professionals",
-    ],
-    projectsBuilt: [
-      {
-        title: "Personal Career Development Plan",
-        description:
-          "Following the webinar, created a structured 6-month personal development roadmap identifying target skills, learning resources, and milestone goals aligned with industry expectations.",
-      },
-      {
-        title: "Industry Trend Summary Report",
-        description:
-          "Compiled a written summary of key takeaways from the webinar sessions, covering top technology trends and career strategies — used as a personal reference and shared with peers.",
-      },
-    ],
-  },
+  id: 59,
+  category: "Others",
+  title: "Hero Campus Challenge Season 10 — Online Assessment",
+  organization: "Hero MotoCorp Limited (via Unstop)",
+  date: "2025",
+  type: "Assessment",
+  isRealCertificate: true,
+  description:
+    "Completed the Online Assessment round of Hero Campus Challenge Season 10 organised by Hero MotoCorp Limited.",
+  longDescription:
+    "Hero Campus Challenge Season 10 is a national-level campus engagement and recruitment programme organised by Hero MotoCorp Limited and hosted on Unstop. As part of this programme, I completed the Online Assessment round, which evaluated aptitude, logical reasoning, and problem-solving skills under timed conditions. Participation reflects exposure to corporate-level assessment standards and competitive evaluation environments.",
+  credentialUrl: "#",
+  badge: "🏍️",
+  image: heroCampusChallengeImg,
+  skills: [
+    "Aptitude & Reasoning",
+    "Analytical Thinking",
+    "Problem Solving",
+    "Time Management",
+    "Competitive Assessment",
+  ],
+  whatILearned: [
+    "Completed a timed corporate-level assessment covering aptitude and reasoning",
+    "Improved analytical thinking and structured problem-solving under pressure",
+    "Gained exposure to real-world hiring assessment formats",
+    "Enhanced time management skills during competitive evaluation",
+  ],
+  projectsBuilt: [],
+},
 
   {
-    id: 24,
-    category: "Others",
-    title: "Suprathon 2025",
-    organization: "SCET (Sarvajanik College of Engineering & Technology)",
-    date: "2025",
-    type: "Hackathon",
-    isRealCertificate: true,
-    description:
-      "Participated in Suprathon 2025 — a competitive hackathon organised by SCET — conceptualising and building a working solution under time-bound sprint conditions.",
-    longDescription:
-      "Suprathon 2025 was an intense hackathon event at Sarvajanik College of Engineering & Technology that brought together student teams to solve real-world challenges through technology and innovation. Competing within a strict time limit, our team went through the full product lifecycle — problem identification, ideation, technical architecture, prototype development, and a final presentation to a panel of judges. The event sharpened critical skills including rapid decision-making, collaborative coding under pressure, and the ability to communicate technical solutions clearly and compellingly to a non-technical audience.",
-    credentialUrl: "#",
-    badge: "🏅",
-    image: suprathon2025Img,
-    skills: [
-      "Problem Solving",
-      "Rapid Prototyping",
-      "Team Collaboration",
-      "React.js",
-      "Node.js",
-      "UI/UX Design",
-      "Pitch & Presentation",
-      "Agile Development",
-    ],
-    whatILearned: [
-      "Translated a complex problem statement into a scoped, buildable prototype within tight time constraints",
-      "Collaborated effectively across roles — frontend, backend, and design — in a high-pressure team environment",
-      "Made rapid architectural decisions balancing speed of delivery with code maintainability",
-      "Delivered a live product demo and handled judge Q&A with clarity and confidence",
-      "Strengthened the ability to prioritise and ship an MVP over a feature-complete but unfinished solution",
-      "Gained hands-on experience in the end-to-end hackathon product development cycle",
-    ],
-    projectsBuilt: [
-      {
-        title: "Hackathon Prototype",
-        description:
-          "Designed and built a fully functional prototype addressing the assigned problem statement, featuring a responsive frontend, a working backend API, and a polished demo-ready UI — delivered within the hackathon time window.",
-      },
-      {
-        title: "Solution Pitch Presentation",
-        description:
-          "Prepared and delivered a structured presentation covering problem framing, proposed solution, tech stack, prototype demo, and projected impact — evaluated by the Suprathon 2025 jury panel.",
-      },
-    ],
-  },
+  id: 60,
+  category: "Others",
+  title: "NationBuilding Case Study Competition 2025 — Online Quiz",
+  organization: "NationBuilding (via Unstop)",
+  date: "January 2025",
+  type: "Assessment",
+  isRealCertificate: true,
+  description:
+    "Participated in the Online Quiz round of the NationBuilding Case Study Competition 2025.",
+  longDescription:
+    "The NationBuilding Case Study Competition 2025, hosted on Unstop, is a national-level competition focused on analysing real-world challenges related to society, governance, and development. As part of this event, I participated in the Online Quiz round conducted on 5th January 2025, which evaluated general awareness, analytical reasoning, and problem-solving in a time-bound format. This experience provided exposure to structured case-based thinking beyond purely technical domains.",
+  credentialUrl: "#",
+  badge: "🏛️",
+  image: nationBuildingImg,
+  skills: [
+    "Analytical Thinking",
+    "Problem Solving",
+    "General Awareness",
+    "Critical Reasoning",
+    "Time-Bound Assessment",
+  ],
+  whatILearned: [
+    "Applied analytical reasoning to case-based and awareness-driven questions",
+    "Improved structured thinking for real-world problem contexts",
+    "Enhanced general awareness related to social and governance topics",
+    "Gained exposure to competitive quiz-based evaluation formats",
+  ],
+  projectsBuilt: [],
+},
 
   {
-    id: 25,
-    category: "Others",
-    title: "Galactic Problem Solver",
-    organization: "NASA Space Apps Challenge",
-    date: "2025",
-    type: "Hackathon",
-    isRealCertificate: true,
-    description:
-      "Earned the Galactic Problem Solver recognition at the NASA International Space Apps Challenge — a global 48-hour hackathon tackling real NASA science and space exploration challenges.",
-    longDescription:
-      "The NASA International Space Apps Challenge is the world's largest hackathon, uniting tens of thousands of participants across the globe to solve real challenges faced by NASA and the space science community. The Galactic Problem Solver recognition is awarded to participants who successfully complete the hackathon, demonstrating commitment, creative problem-solving, and the ability to deliver a working solution addressing a NASA-defined challenge. Our team worked across a 48-hour sprint to design and prototype an innovative solution, applying technical skills to a real-world space science problem and presenting our work to a panel of local and international evaluators.",
-    credentialUrl: "#",
-    badge: "🚀",
-    image: galacticProblemSolverImg,
-    skills: [
-      "Problem Solving",
-      "Space Science Concepts",
-      "Rapid Prototyping",
-      "Team Collaboration",
-      "Data Analysis",
-      "Creative Thinking",
-      "Pitch & Presentation",
-      "Agile Development",
-    ],
-    whatILearned: [
-      "Applied scientific thinking to a real NASA challenge, bridging space science concepts with technology solutions",
-      "Built and iterated on a prototype within a 48-hour global hackathon format",
-      "Collaborated in a cross-functional team, coordinating ideation, development, and presentation tracks simultaneously",
-      "Communicated a complex technical solution clearly and compellingly to a diverse judging panel",
-      "Gained exposure to open NASA datasets and APIs used in real space science research",
-      "Strengthened resilience and adaptability when navigating ambiguous, open-ended problem statements",
-    ],
-    projectsBuilt: [
-      {
-        title: "Space Apps Hackathon Prototype",
-        description:
-          "Designed and built a working prototype addressing a chosen NASA challenge, incorporating open NASA datasets and delivering a functional, demo-ready solution within the 48-hour competition window.",
-      },
-      {
-        title: "Galactic Problem Solver Submission",
-        description:
-          "Completed and submitted the full NASA Space Apps project package — including a project description, solution video, and live prototype link — earning the Galactic Problem Solver recognition from NASA.",
-      },
-    ],
-  },
+  id: 61,
+  category: "Others",
+  title: "NationBuilding Case Study Competition 2026 — Online Quiz Round",
+  organization: "NationBuilding (via Unstop)",
+  date: "January 2026",
+  type: "Assessment",
+  isRealCertificate: true,
+  description:
+    "Participated in the Online Quiz Round of the NationBuilding Case Study Competition 2026.",
+  longDescription:
+    "The NationBuilding Case Study Competition 2026, hosted on Unstop, is a national-level competition focused on analysing real-world social, economic, and governance challenges. As part of this event, I participated in the Online Quiz Round, which evaluated analytical reasoning, general awareness, and structured thinking in a time-bound format. This experience provided continued exposure to case-based thinking and broadened understanding of problem-solving beyond purely technical domains.",
+  credentialUrl: "#",
+  badge: "🏛️",
+  image: nationBuilding2026Img,
+  skills: [
+    "Analytical Thinking",
+    "Problem Solving",
+    "General Awareness",
+    "Critical Reasoning",
+    "Time-Bound Assessment",
+  ],
+  whatILearned: [
+    "Applied analytical reasoning to case-based and awareness-driven questions",
+    "Improved structured thinking for real-world problem contexts",
+    "Enhanced general awareness related to social and governance topics",
+    "Gained exposure to competitive quiz-based evaluation formats",
+  ],
+  projectsBuilt: [],
+},
 
   {
-    id: 27,
-    category: "Others",
-    title: "StellerNet Hackathon",
-    organization: "StellerNet",
-    date: "2025",
-    type: "Hackathon",
-    isRealCertificate: true,
-    description:
-      "Participated in the StellerNet Hackathon — a competitive coding and innovation event — designing and building a working solution prototype within a time-bound sprint.",
-    longDescription:
-      "The StellerNet Hackathon brought together student developers and innovators to tackle real-world challenges through technology, creativity, and rapid prototyping. Competing within strict time constraints, our team went through the complete product development cycle — from problem identification and solution ideation, through technical architecture and prototype development, to a final live demonstration before the judging panel. The event provided an intensive, hands-on environment to sharpen collaborative coding skills, decision-making under pressure, and the ability to deliver a meaningful, demo-ready product in a short window.",
-    credentialUrl: "#",
-    badge: "🌐",
-    image: stellerNetImg,
-    skills: [
-      "Problem Solving",
-      "Rapid Prototyping",
-      "Team Collaboration",
-      "Full-Stack Development",
-      "UI/UX Design",
-      "Agile Development",
-      "Pitch & Presentation",
-      "Creative Thinking",
-    ],
-    whatILearned: [
-      "Decomposed an open-ended problem statement into a scoped, deliverable solution within tight time constraints",
-      "Coordinated across frontend, backend, and design responsibilities in a fast-moving team environment",
-      "Made rapid architectural and technology decisions, balancing delivery speed with solution quality",
-      "Built and iterated on a working prototype through continuous testing and feedback loops",
-      "Delivered a compelling live product demo and responded to judge questions with clarity and confidence",
-      "Strengthened adaptability and creative problem-solving when facing unexpected technical challenges mid-sprint",
-    ],
-    projectsBuilt: [
-      {
-        title: "StellerNet Hackathon Prototype",
-        description:
-          "Designed and built a fully functional prototype addressing the hackathon challenge, featuring a responsive UI, working backend logic, and a polished demo — delivered within the competition time window.",
-      },
-      {
-        title: "Solution Pitch Presentation",
-        description:
-          "Prepared and delivered a structured demo and pitch covering the problem statement, proposed solution, technical stack, and projected impact — presented to the StellerNet hackathon judging panel.",
-      },
-    ],
-  },
-
-  {
-    id: 55,
-    category: "Others",
-    title: "Frontend Battle — Vibe Coding Competition",
-    organization: "IIT Bhubaneswar (via Unstop)",
-    date: "2025",
-    type: "Hackathon",
-    isRealCertificate: true,
-    description:
-      "Certificate of Participation for competing in Frontend Battle (Vibe Coding Competition), a frontend-focused coding competition organised by the Indian Institute of Technology Bhubaneswar.",
-    longDescription:
-      "Frontend Battle is a competitive vibe coding event organised by the Indian Institute of Technology Bhubaneswar and hosted on Unstop. Representing the Institute of Infrastructure Technology Research and Management (IITRAM), Ahmedabad, I participated in this frontend-focused challenge that tested rapid UI development skills, design thinking, and the ability to build visually compelling interfaces under competition conditions. The event reinforced real-world frontend development capabilities including component design, responsive layouts, and delivering polished results within a time-constrained environment.",
-    credentialUrl: "#",
-    badge: "⚔️",
-    image: frontendBattleImg,
-    skills: [
-      "Frontend Development",
-      "HTML5 & CSS3",
-      "JavaScript (ES6+)",
-      "Responsive Web Design",
-      "UI/UX Implementation",
-      "Competitive Coding",
-      "React.js",
-      "Time-Bound Delivery",
-    ],
-    whatILearned: [
-      "Developed and delivered a polished frontend UI under strict competition time constraints",
-      "Sharpened rapid prototyping skills by translating design ideas directly into functional code",
-      "Applied responsive design principles to produce a cross-device compatible interface",
-      "Competed against peers from institutions across India in a nationally organised IIT event",
-      "Strengthened decision-making and prioritisation when building under pressure",
-    ],
-    projectsBuilt: [
-      {
-        title: "Frontend Battle Submission",
-        description:
-          "Built and submitted a complete frontend project for the IIT Bhubaneswar Frontend Battle competition — featuring a responsive UI, clean component structure, and polished visual design, delivered within the competition window.",
-      },
-    ],
-  },
-
-  {
-    id: 56,
-    category: "Others",
-    title: "Opencode'25 — OpenCode 2025",
-    organization: "IIIT Allahabad (via Unstop)",
-    date: "2025",
-    type: "Hackathon",
-    isRealCertificate: true,
-    description:
-      "Certificate of Participation for competing in Opencode'25, a competitive coding event organised by the Indian Institute of Information Technology (IIIT), Allahabad.",
-    longDescription:
-      "OpenCode 2025 (Opencode'25) is a competitive coding and problem-solving event organised by the Indian Institute of Information Technology (IIIT), Allahabad and hosted on Unstop. Representing the Institute of Infrastructure Technology Research and Management (IITRAM), Ahmedabad, I participated in this nationally recognised competition that challenges participants to solve algorithmic and programming problems under timed conditions. The event tested analytical thinking, data structures and algorithm knowledge, and the ability to write optimised, correct solutions at pace — competing against strong peers from institutions across India.",
-    credentialUrl: "#",
-    badge: "💻",
-    image: opencodeImg,
-    skills: [
-      "Competitive Programming",
-      "Data Structures & Algorithms",
-      "Problem Solving",
-      "Algorithmic Thinking",
-      "Python / JavaScript",
-      "Time-Bound Coding",
-      "Analytical Reasoning",
-    ],
-    whatILearned: [
-      "Solved algorithmic challenges under strict time constraints in a competitive national event",
-      "Applied data structures and algorithms to derive optimised solutions for complex problems",
-      "Strengthened analytical and logical reasoning through structured competitive problem sets",
-      "Competed against participants from institutions across India in an IIIT Allahabad organised event",
-      "Improved speed and accuracy in translating problem statements into working code",
-    ],
-    projectsBuilt: [
-      {
-        title: "OpenCode'25 Contest Solutions",
-        description:
-          "Solved a set of algorithmic and data structure problems during the Opencode'25 competition, applying optimised solutions within the contest's time constraints to achieve the best possible rank.",
-      },
-    ],
-  },
-
-  {
-    id: 57,
-    category: "Others",
-    title: "SuPrathon 2025 — National Level Virtual Hackathon",
-    organization: "SuPrazo Technologies (via Unstop)",
-    date: "2025",
-    type: "Hackathon",
-    isRealCertificate: true,
-    description:
-      "Certificate of Participation for competing in SuPrathon 2025, a National Level Virtual Hackathon organised by SuPrazo Technologies, representing Team Re-Zero 11 from IITRAM, Ahmedabad.",
-    longDescription:
-      "SuPrathon 2025 is a National Level Virtual Hackathon organised by SuPrazo Technologies and hosted on Unstop. Representing the Institute of Infrastructure Technology Research and Management (IITRAM), Ahmedabad as part of Team Re-Zero 11, I participated in this nationally scoped virtual hackathon that challenged teams to conceptualise, build, and present innovative technology solutions. Competing virtually against teams from across India, the event demanded strong collaboration, rapid full-stack development, and the ability to deliver a polished, demo-ready solution within the hackathon's time window.",
-    credentialUrl: "#",
-    badge: "🏅",
-    image: suprathonNationalImg,
-    skills: [
-      "Problem Solving",
-      "Rapid Prototyping",
-      "Team Collaboration",
-      "Full-Stack Development",
-      "React.js",
-      "Agile Development",
-      "Pitch & Presentation",
-      "Virtual Teamwork",
-    ],
-    whatILearned: [
-      "Collaborated as part of Team Re-Zero 11 to deliver a complete solution in a national-level virtual hackathon",
-      "Translated a complex problem statement into a scoped, buildable prototype within tight time constraints",
-      "Coordinated effectively across frontend, backend, and design roles in a remote team environment",
-      "Made rapid architectural decisions balancing delivery speed with code quality",
-      "Delivered a live virtual product demo covering problem framing, solution design, and tech stack",
-      "Competed against teams from institutions across India in a nationally organised event",
-    ],
-    projectsBuilt: [
-      {
-        title: "SuPrathon 2025 Hackathon Prototype",
-        description:
-          "Built and delivered a fully functional prototype as Team Re-Zero 11 for the SuPrathon 2025 National Level Virtual Hackathon — featuring a responsive UI, working backend logic, and a polished demo presented to the judging panel.",
-      },
-    ],
-  },
-
-  {
-    id: 59,
-    category: "Others",
-    title: "Hero Campus Challenge Season 10 — Online Assessment",
-    organization: "Hero MotoCorp Limited (via Unstop)",
-    date: "2025",
-    type: "Quiz",
-    isRealCertificate: true,
-    description:
-      "Certificate of Participation for completing the Online Assessment round of Hero Campus Challenge Season 10, organised by Hero MotoCorp Limited via Unstop.",
-    longDescription:
-      "Hero Campus Challenge Season 10 is a prestigious national-level campus recruitment and talent discovery programme organised by Hero MotoCorp Limited — one of India's leading two-wheeler manufacturers. The Online Assessment round tested participants across aptitude, logical reasoning, domain knowledge, and problem-solving skills. Representing the Institute of Infrastructure Technology Research and Management (IITRAM), Ahmedabad, participation in this challenge reflects strong academic calibre and the ambition to compete on a national corporate stage, building career-readiness alongside technical and analytical skills.",
-    credentialUrl: "#",
-    badge: "🏍️",
-    image: heroCampusChallengeImg,
-    skills: [
-      "Aptitude & Reasoning",
-      "Analytical Thinking",
-      "Problem Solving",
-      "Domain Knowledge",
-      "Time Management",
-      "Competitive Assessment",
-      "Career Readiness",
-    ],
-    whatILearned: [
-      "Completed a structured corporate-level online assessment covering aptitude, reasoning, and domain knowledge",
-      "Strengthened analytical and logical reasoning through timed competitive questions",
-      "Gained exposure to the hiring and assessment standards of a leading Indian multinational corporation",
-      "Developed effective time management strategies for high-stakes competitive assessments",
-      "Benchmarked problem-solving abilities against peers from institutions across India",
-    ],
-    projectsBuilt: [],
-  },
-
-  {
-    id: 60,
-    category: "Others",
-    title: "NationBuilding Case Study Competition 2025 — Online Quiz",
-    organization: "NationBuilding (via Unstop)",
-    date: "Jan 2025",
-    type: "Quiz",
-    isRealCertificate: true,
-    description:
-      "Certificate of Participation for the Online Quiz round of the NationBuilding Case Study Competition 2025, held on 5th January 2025.",
-    longDescription:
-      "The NationBuilding Case Study Competition 2025 is a prestigious national-level competition centred on the theme 'Ordinary People, Extraordinary Impact' — challenging participants to analyse real-world social, economic, and governance challenges through structured case study thinking. The Online Quiz round, held on 5th January 2025, tested participants on general awareness, analytical reasoning, and problem-solving applied to nation-building contexts. Participation in this competition reflects intellectual curiosity, civic awareness, and the ability to think critically beyond purely technical domains.",
-    credentialUrl: "#",
-    badge: "🏛️",
-    image: nationBuildingImg,
-    skills: [
-      "Case Study Analysis",
-      "Analytical Thinking",
-      "General Awareness",
-      "Problem Solving",
-      "Critical Reasoning",
-      "Civic & Social Awareness",
-      "Competitive Assessment",
-    ],
-    whatILearned: [
-      "Applied analytical and critical thinking to real-world social and governance problem statements",
-      "Strengthened general awareness and knowledge of nation-building topics and current affairs",
-      "Developed structured case study reasoning skills applicable to business and policy contexts",
-      "Competed in a nationally recognised competition emphasising impact-driven thinking",
-      "Broadened perspective beyond technical skills to include civic and social problem-solving",
-    ],
-    projectsBuilt: [],
-  },
-
-  {
-    id: 61,
-    category: "Others",
-    title: "NationBuilding Case Study Competition 2026 — Online Quiz Round",
-    organization: "NationBuilding (via Unstop)",
-    date: "Jan 2026",
-    type: "Quiz",
-    isRealCertificate: true,
-    description:
-      "Certificate of Participation for the Online Quiz Round of the NationBuilding Case Study Competition 2026, an initiative by Nation With Namo.",
-    longDescription:
-      "The NationBuilding Case Study Competition 2026 is a nationally recognised competition centred on the theme 'Ordinary People, Extraordinary Impact', initiated by Nation With Namo and hosted on Unstop. The Online Quiz Round tested participants on analytical reasoning, general awareness, and structured thinking applied to real-world social, economic, and civic challenges. Participating in consecutive editions (2025 and 2026) reflects a sustained commitment to developing well-rounded analytical skills and civic awareness alongside technical expertise.",
-    credentialUrl: "#",
-    badge: "🏛️",
-    image: nationBuilding2026Img,
-    skills: [
-      "Case Study Analysis",
-      "Analytical Thinking",
-      "General Awareness",
-      "Critical Reasoning",
-      "Civic & Social Awareness",
-      "Problem Solving",
-      "Competitive Assessment",
-    ],
-    whatILearned: [
-      "Applied critical and analytical thinking to civic and social problem statements at a national competition level",
-      "Strengthened general awareness and knowledge relevant to India's development and governance",
-      "Developed structured case study reasoning skills applicable to both business and policy contexts",
-      "Demonstrated consistent engagement by participating in back-to-back editions (2025 & 2026)",
-      "Broadened perspective beyond technical skills to encompass civic leadership and impact-driven thinking",
-    ],
-    projectsBuilt: [],
-  },
-
-  {
-    id: 62,
-    category: "Others",
-    title: "TATA Crucible Campus Quiz 2025",
-    organization: "Tata Group (via Unstop)",
-    date: "2025",
-    type: "Quiz",
-    isRealCertificate: true,
-    description:
-      "Certificate of Participation for the TATA Crucible Campus Quiz 2025 — one of India's most prestigious campus quizzes, organised by the Tata Group.",
-    longDescription:
-      "TATA Crucible Campus Quiz is India's largest and most prestigious campus quiz competition, organised annually by the Tata Group. Representing the Institute of Infrastructure Technology Research and Management (IITRAM), Ahmedabad, participation in TATA Crucible 2025 reflects strong general knowledge, analytical sharpness, and the competitive spirit to engage with one of India's most iconic corporate-academic quiz events. The competition tests participants across business, technology, science, culture, and current affairs — demanding breadth of knowledge alongside rapid, accurate recall under pressure.",
-    credentialUrl: "#",
-    badge: "🔥",
-    image: tataCrucibleImg,
-    skills: [
-      "General Knowledge",
-      "Analytical Thinking",
-      "Business Awareness",
-      "Technology Awareness",
-      "Rapid Recall",
-      "Competitive Assessment",
-      "Current Affairs",
-    ],
-    whatILearned: [
-      "Competed in one of India's most prestigious and widely recognised campus quiz competitions",
-      "Applied broad general knowledge spanning business, technology, science, and current affairs",
-      "Strengthened rapid recall and decision-making skills under competitive time pressure",
-      "Gained exposure to the high standard set by Tata Group's national campus engagement programme",
-      "Benchmarked knowledge and competitive performance against peers from institutions across India",
-    ],
-    projectsBuilt: [],
-  },
+  id: 62,
+  category: "Others",
+  title: "TATA Crucible Campus Quiz 2025",
+  organization: "Tata Group (via Unstop)",
+  date: "2025",
+  type: "Assessment",
+  isRealCertificate: true,
+  description:
+    "Participated in the TATA Crucible Campus Quiz 2025.",
+  longDescription:
+    "TATA Crucible Campus Quiz, hosted on Unstop and organised by the Tata Group, is a national-level quiz competition covering business, technology, science, and current affairs. I participated in the 2025 edition, engaging in a time-bound quiz format that evaluated general awareness, analytical thinking, and recall ability. This experience provided exposure to competitive quiz-based assessment at a national level.",
+  credentialUrl: "#",
+  badge: "🔥",
+  image: tataCrucibleImg,
+  skills: [
+    "Analytical Thinking",
+    "General Awareness",
+    "Problem Solving",
+    "Time-Bound Assessment",
+  ],
+  whatILearned: [
+    "Applied general awareness and reasoning in a competitive quiz format",
+    "Improved speed and accuracy in answering time-constrained questions",
+    "Gained exposure to national-level competitive assessments",
+  ],
+  projectsBuilt: [],
+},
 ];
 
 export const categories = [

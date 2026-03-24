@@ -79,6 +79,7 @@ function SkillsPage() {
             types={levels}
             categories={skillCategories}
             isSingleCategory={false}
+            searchPlaceholder="Search skills..."
           />
         </div>
 

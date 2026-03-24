@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
+  const location = useLocation();
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  const isActive = (path) => {
+    return location.pathname === path;
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -57,15 +62,15 @@ function Navbar() {
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-5 lg:space-x-10">
 
-              <NavItem to="/" label="Home" scrolled={scrolled} />
-              <NavItem to="/projects" label="Projects" scrolled={scrolled} />
-              <NavItem to="/skills" label="Skills" scrolled={scrolled} />
-              <NavItem to="/certifications" label="Certifications" scrolled={scrolled} />
-              <NavItem to="/resume" label="Resume" scrolled={scrolled} />
+              <NavItem to="/" label="Home" scrolled={scrolled} isActive={isActive("/")} />
+              <NavItem to="/projects" label="Projects" scrolled={scrolled} isActive={isActive("/projects")} />
+              <NavItem to="/skills" label="Skills" scrolled={scrolled} isActive={isActive("/skills")} />
+              <NavItem to="/certifications" label="Certifications" scrolled={scrolled} isActive={isActive("/certifications")} />
+              <NavItem to="/resume" label="Resume" scrolled={scrolled} isActive={isActive("/resume")} />
 
               <Link
                 to="/contact"
-                className={`nav-link ${scrolled ? "scrolled-nav-link" : ""}`}
+                className={`nav-link ${scrolled ? "scrolled-nav-link" : ""} ${isActive("/contact") ? "active-nav-link" : ""}`}
               >
                 Contact
               </Link>
@@ -102,7 +107,11 @@ function Navbar() {
                   key={to}
                   to={to}
                   onClick={() => setIsOpen(false)}
-                  className="flex items-center justify-between px-6 py-4 text-[#6F4A2D] font-semibold text-base hover:bg-[#D8CFB0] hover:text-[#9B5F3F] transition-all duration-200"
+                  className={`flex items-center justify-between px-6 py-4 text-[#6F4A2D] font-semibold text-base transition-all duration-200 ${
+                    isActive(to)
+                      ? "bg-[#D6C59A] text-[#9B5F3F] font-bold"
+                      : "hover:bg-[#D8CFB0] hover:text-[#9B5F3F]"
+                  }`}
                   style={{ borderBottom: i < 5 ? "1px solid rgba(155,95,63,0.10)" : "none" }}
                 >
                   {label}
@@ -121,7 +130,9 @@ function Navbar() {
           position: relative;
           color: #6f4a2d;
           font-weight: 500;
-          transition: color 0.3s ease;
+          transition: all 0.3s ease;
+          padding: 0.5rem 0.75rem;
+          border-radius: 0.5rem;
         }
 
         .scrolled-nav-link {
@@ -130,25 +141,24 @@ function Navbar() {
 
         .nav-link:hover {
           color: #9b5f3f;
+          background-color: rgba(155, 95, 63, 0.1);
         }
 
         .scrolled-nav-link:hover {
-          color: #e8d4c0;
+          color: #ffffff;
+          background-color: rgba(255, 255, 255, 0.1);
         }
 
-        .nav-link::after {
-          content: "";
-          position: absolute;
-          width: 0;
-          height: 2px;
-          left: 0;
-          bottom: -6px;
-          background: #9b5f3f;
-          transition: width 0.3s ease;
+        .nav-link.active-nav-link {
+          color: #9b5f3f;
+          font-weight: 600;
+          background-color: rgba(155, 95, 63, 0.15);
         }
 
-        .nav-link:hover::after {
-          width: 100%;
+        .scrolled-nav-link.active-nav-link {
+          color: #ffffff;
+          font-weight: 600;
+          background-color: rgba(255, 255, 255, 0.15);
         }
 
         .mobile-link {
@@ -166,9 +176,9 @@ function Navbar() {
   );
 }
 
-function NavItem({ to, label, scrolled }) {
+function NavItem({ to, label, scrolled, isActive }) {
   return (
-    <Link to={to} className={`nav-link ${scrolled ? "scrolled-nav-link" : ""}`}>
+    <Link to={to} className={`nav-link ${scrolled ? "scrolled-nav-link" : ""} ${isActive ? "active-nav-link" : ""}`}>
       {label}
     </Link>
   );

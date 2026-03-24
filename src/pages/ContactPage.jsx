@@ -1,13 +1,21 @@
 import React, { useState } from "react";
-import { Mail, Linkedin, Github, Phone, Send } from "lucide-react";
+import { Mail, Linkedin, Github, Phone, Send, Check } from "lucide-react";
 import { personalInfo } from "../data/certifications";
 
 function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
+  const [emailCopied, setEmailCopied] = useState(false);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleEmailClick = () => {
+    // Copy email to clipboard
+    navigator.clipboard.writeText(personalInfo.email);
+    setEmailCopied(true);
+    setTimeout(() => setEmailCopied(false), 2000);
   };
 
   const handleSubmit = (e) => {
@@ -55,18 +63,24 @@ function ContactPage() {
             {/* Contact Details */}
             <div className="space-y-5">
 
-              <a
-                href={`mailto:${personalInfo.email}`}
-                className="flex items-center gap-4 p-4 bg-white/60 backdrop-blur rounded-2xl shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
+              <button
+                onClick={handleEmailClick}
+                className="w-full flex items-center gap-4 p-4 bg-white/60 backdrop-blur rounded-2xl shadow hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group text-left"
               >
                 <div className="w-12 h-12 rounded-full bg-[#9B5F3F] flex items-center justify-center shrink-0">
-                  <Mail size={20} className="text-white" />
+                  {emailCopied ? (
+                    <Check size={20} className="text-white" />
+                  ) : (
+                    <Mail size={20} className="text-white" />
+                  )}
                 </div>
                 <div>
                   <p className="text-xs text-[#6F4A2D]/60 font-medium uppercase tracking-wide">Email</p>
-                  <p className="text-[#6F4A2D] font-semibold group-hover:text-[#9B5F3F] transition break-all text-sm">{personalInfo.email}</p>
+                  <p className="text-[#6F4A2D] font-semibold group-hover:text-[#9B5F3F] transition break-all text-sm">
+                    {emailCopied ? "Copied!" : personalInfo.email}
+                  </p>
                 </div>
-              </a>
+              </button>
 
               <a
                 href={personalInfo.linkedin}
