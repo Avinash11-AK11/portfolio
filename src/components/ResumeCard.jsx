@@ -1,7 +1,14 @@
 import React from "react";
-import { MapPin, Calendar, Award, ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { MapPin, Calendar, Award, ArrowRight, Download } from "lucide-react";
 
 function ResumeCard({ resume }) {
+  const navigate = useNavigate();
+
+  const handleViewDetails = () => {
+    navigate(`/resume/detail/${resume.id}`);
+  };
+
   return (
     <div className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden animate-fadeUp">
       {/* Top accent bar */}
@@ -52,7 +59,7 @@ function ResumeCard({ resume }) {
             Key Responsibilities
           </h4>
           <ul className="space-y-2">
-            {resume.responsibilities.slice(0, 3).map((resp, index) => (
+            {(resume.responsibilities || []).slice(0, 3).map((resp, index) => (
               <li key={index} className="text-sm text-[#6F4A2D]/70 flex gap-3">
                 <span className="text-[#9B5F3F] font-bold">•</span>
                 <span>{resp}</span>
@@ -67,7 +74,7 @@ function ResumeCard({ resume }) {
             Technical Skills
           </h4>
           <div className="flex flex-wrap gap-2">
-            {resume.skills.slice(0, 6).map((skill, index) => (
+            {(resume.skills || []).slice(0, 6).map((skill, index) => (
               <span
                 key={index}
                 className="px-3 py-1 bg-[#EDE3CF] text-[#6F4A2D] text-xs font-semibold rounded-full hover:bg-[#D6C59A] transition"
@@ -75,19 +82,34 @@ function ResumeCard({ resume }) {
                 {skill}
               </span>
             ))}
-            {resume.skills.length > 6 && (
+            {(resume.skills || []).length > 6 && (
               <span className="px-3 py-1 text-[#9B5F3F] text-xs font-semibold">
-                +{resume.skills.length - 6} more
+                +{(resume.skills || []).length - 6} more
               </span>
             )}
           </div>
         </div>
 
-        {/* View Details Button */}
-        <button className="w-full py-3 px-4 bg-gradient-to-r from-[#9B5F3F] to-[#8B5736] text-white rounded-xl font-semibold flex items-center justify-center gap-2 hover:shadow-lg transition-all duration-300 group/btn">
-          View Full Experience
-          <ArrowRight size={18} className="group-hover/btn:translate-x-1 transition" />
-        </button>
+        {/* Buttons Section */}
+        <div className={`flex gap-3 ${resume.resumeUrl ? "flex-col sm:flex-row" : ""}`}>
+          <button
+            onClick={handleViewDetails}
+            className="w-full py-3 px-4 bg-gradient-to-r from-[#9B5F3F] to-[#8B5736] text-white rounded-xl font-semibold flex items-center justify-center gap-2 hover:shadow-lg transition-all duration-300 group/btn"
+          >
+            View Full Experience
+            <ArrowRight size={18} className="group-hover/btn:translate-x-1 transition" />
+          </button>
+          {resume.resumeUrl && (
+            <a
+              href={resume.resumeUrl}
+              download="ios_app_developer_resume.pdf"
+              className="w-full py-3 px-4 bg-gradient-to-r from-[#CDB77F] to-[#9B5F3F] text-white rounded-xl font-semibold flex items-center justify-center gap-2 hover:shadow-lg transition-all duration-300 group/btn"
+            >
+              <Download size={18} />
+              Download Resume
+            </a>
+          )}
+        </div>
       </div>
 
       {/* Hover glow effect */}

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
-function Navbar() {
+function Navbar({ forceLight = false }) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -30,6 +30,12 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location.pathname]);
+
+  const useScrolledTheme = !forceLight && scrolled;
+
   return (
     <>
       {/* Scroll Progress Bar */}
@@ -40,9 +46,11 @@ function Navbar() {
 
       <nav
         className={`fixed w-full z-50 transition-all duration-300 ${
-          scrolled
-            ? "backdrop-blur-xl bg-[#6F4A2D]/70 shadow-xl"
-            : "bg-transparent"
+          forceLight
+            ? "backdrop-blur-xl bg-[#D8CFB0]/95 border-b border-[#9B5F3F]/15 shadow-md"
+            : scrolled
+              ? "backdrop-blur-xl bg-[#6F4A2D]/70 shadow-xl"
+              : "bg-transparent"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-4 md:py-5">
@@ -53,7 +61,7 @@ function Navbar() {
             <Link
               to="/"
               className={`text-2xl md:text-3xl font-serif font-bold transition duration-300 hover:scale-105 ${
-                scrolled ? "text-white" : "text-[#6F4A2D]"
+                useScrolledTheme ? "text-white" : "text-[#6F4A2D]"
               }`}
             >
               Avinash
@@ -62,15 +70,15 @@ function Navbar() {
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-5 lg:space-x-10">
 
-              <NavItem to="/" label="Home" scrolled={scrolled} isActive={isActive("/")} />
-              <NavItem to="/projects" label="Projects" scrolled={scrolled} isActive={isActive("/projects")} />
-              <NavItem to="/skills" label="Skills" scrolled={scrolled} isActive={isActive("/skills")} />
-              <NavItem to="/certifications" label="Certifications" scrolled={scrolled} isActive={isActive("/certifications")} />
-              <NavItem to="/resume" label="Resume" scrolled={scrolled} isActive={isActive("/resume")} />
+              <NavItem to="/" label="Home" scrolled={useScrolledTheme} isActive={isActive("/")} />
+              <NavItem to="/projects" label="Projects" scrolled={useScrolledTheme} isActive={isActive("/projects")} />
+              <NavItem to="/skills" label="Skills" scrolled={useScrolledTheme} isActive={isActive("/skills")} />
+              <NavItem to="/certifications" label="Certifications" scrolled={useScrolledTheme} isActive={isActive("/certifications")} />
+              <NavItem to="/resume" label="Resume" scrolled={useScrolledTheme} isActive={isActive("/resume")} />
 
               <Link
                 to="/contact"
-                className={`nav-link ${scrolled ? "scrolled-nav-link" : ""} ${isActive("/contact") ? "active-nav-link" : ""}`}
+                className={`nav-link ${useScrolledTheme ? "scrolled-nav-link" : ""} ${isActive("/contact") ? "active-nav-link" : ""}`}
               >
                 Contact
               </Link>
@@ -80,7 +88,7 @@ function Navbar() {
             <button
               onClick={toggleMenu}
               className={`md:hidden transition hover:scale-110 ${
-                scrolled ? "text-white" : "text-[#6F4A2D]"
+                useScrolledTheme ? "text-white" : "text-[#6F4A2D]"
               }`}
             >
               {isOpen ? <X size={28} /> : <Menu size={28} />}

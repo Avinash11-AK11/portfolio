@@ -1,23 +1,80 @@
+import iosResumePdf from "../assets/other/resume/ios_app_developer_resume.pdf";
+
 export const resumesData = [
   {
     id: 1,
     title: "Full Stack Web Developer",
     category: "Web Development",
-    company: "Tech Innovations Inc.",
-    period: "Jan 2024 - Present",
-    location: "Remote",
-    description: "Leading frontend development and architecting scalable web applications using React and modern JavaScript frameworks.",
-    fullDescription: "As a Senior Full Stack Web Developer, I design and develop responsive, high-performance web applications. I work with React, Node.js, and cloud technologies to build solutions that serve millions of users. Key responsibilities include leading architectural decisions, mentoring junior developers, and implementing best practices in code quality and performance optimization.",
-    responsibilities: [
-      "Developed and maintained 5+ production React applications serving 100k+ monthly users",
-      "Architected microservices-based backend using Node.js and Express",
-      "Implemented CI/CD pipelines reducing deployment time by 70%",
-      "Led team of 3 developers on scrum-based projects",
-      "Optimized application performance resulting in 40% improvement in load times"
-    ],
-    skills: ["React", "Node.js", "JavaScript", "TailwindCSS", "PostgreSQL", "Docker", "AWS", "REST APIs"],
+    company: "Avinash Chavda",
+    period: "2024 - Present",
+    location: "Ahmedabad, India",
+    description: "Full-stack web developer specializing in building scalable and performant applications using React, Node.js, and RESTful APIs. Experienced in designing secure authentication systems, optimizing backend performance, and developing responsive user interfaces. Proven ability to deliver production-ready solutions with clean architecture, efficient data handling, and strong attention to user experience.",
+    fullDescription: "Full-stack web developer specializing in building scalable and performant applications using React, Node.js, and RESTful APIs. Experienced in designing secure authentication systems, optimizing backend performance, and developing responsive user interfaces. Proven ability to deliver production-ready solutions with clean architecture, efficient data handling, and strong attention to user experience.",
     icon: "💻",
-    badge: "Featured"
+    badge: "Featured",
+    resumeUrl: require("../assets/other/resume/web_development_resume.pdf"),
+    education: {
+      degree: "B.Tech in Computer Science and Engineering",
+      institution: "Institute of Infrastructure, Technology, Research and Management (IITRAM), Ahmedabad",
+      period: "2024 – current",
+      cgpa: "7.32 / 10",
+      focus: "Web Development, Data Structures & Algorithms, Object-Oriented Programming",
+      activities: "Hackathon Competitions, Software Development Projects, Data Analysis, App Development"
+    },
+    technicalSkills: {
+      programming: ["JavaScript (ES6+)", "Python", "C++"],
+      frontend: ["React", "Material-UI", "HTML5", "CSS3", "Responsive Design", "State Management"],
+      backend: ["Node.js", "Express.js", "REST APIs", "Authentication (JWT)", "Spring Boot"],
+      databases: ["MongoDB", "MySQL", "Firebase", "Supabase"],
+      tools: ["Git", "GitHub", "CI/CD", "Vercel", "Netlify", "API Integration", "Debugging", "Deployment"]
+    },
+    projects: [
+      {
+        name: "RevenueCat Paywall Championship Landing Page",
+        stack: ["React", "Vite", "CSS"],
+        github: true,
+        bullets: [
+          "Built responsive landing page with interactive paywall demo and real-time countdown timer",
+          "Developed modal-based paywall, pricing selection, and scroll progress indicator",
+          "Enhanced UX using smooth scrolling, animations, and responsive design",
+          "Designed modular component architecture for scalability and maintainability"
+        ]
+      },
+      {
+        name: "Furniture Business Management System",
+        stack: ["React", "Node.js"],
+        github: true,
+        bullets: [
+          "Built full-stack system with JWT authentication and role-based access control",
+          "Improved backend performance by 35% through optimized queries and API design",
+          "Designed RESTful APIs for product, order, and user workflows",
+          "Deployed using CI/CD pipeline ensuring reliable delivery"
+        ]
+      },
+      {
+        name: "Cosmic Explorer (Hackathon Winner)",
+        stack: ["react", "WebGL", "NASA API"],
+        github: true,
+        bullets: [
+          "Developed astronomy visualization platform using react with real-time API integration",
+          "Implemented geolocation-based rendering and interactive exploration UI",
+          "Optimized rendering performance using efficient scene and animation handling",
+          "Secured 1st place by delivering complete working prototype within 48 hours"
+        ]
+      }
+    ],
+    experience: [
+      { company: "Vaishnav Technologies", role: "Frontend Developer Intern", link: "#" },
+      { company: "CODEXINTERN", role: "Web Development Intern", link: "#" },
+      { company: "Technosix Solutions", role: "Web Development Intern", link: "#" },
+      { company: "Wayspire", role: "Web Development Intern", link: "#" }
+    ],
+    achievements: [
+      { title: "1st Place — Cosmic Explorer Hackathon", link: "#" },
+      { title: "NASA Space Apps Challenge — Global Participant", link: "#" },
+      { title: "Suprathon 2025 — National Hackathon", link: "#" },
+      { title: "Frontend Battle — Vibe Coding Competition", link: "#" }
+    ]
   },
   {
     id: 2,
@@ -41,19 +98,92 @@ export const resumesData = [
     id: 3,
     title: "iOS App Developer",
     category: "App Development",
-    company: "Mobile First Studios",
-    period: "Mar 2024 - Present",
-    location: "Remote",
-    description: "Developing native iOS applications with focus on performance, user experience, and code quality.",
-    fullDescription: "Creating high-performance native iOS applications for the Apple ecosystem. Expertise in Swift, SwiftUI, and integrating with backend services. Implemented complex features including real-time synchronization, offline functionality, and push notifications.",
+    company: "Personal Projects",
+    period: "2025 - Present",
+    location: "Ahmedabad, India",
+    description: "iOS & Flutter Developer with hands-on experience building production-grade mobile apps using Flutter, Dart, SwiftUI, UIKit, and Firebase.",
+    fullDescription: "iOS & Flutter Developer with hands-on experience building production-grade mobile apps using SwiftUI, UIKit, and Firebase. Developed cross-platform e-commerce solutions with real-time sync, authentication, and push notifications. Hackathon winner with proven ability to deliver scalable, clean-architecture applications under tight deadlines.",
     responsibilities: [
-      "Developed 3 iOS apps published on App Store with 50k+ downloads",
-      "Implemented real-time data synchronization using Firebase",
-      "Built offline-first architecture improving app reliability by 60%",
-      "Integrated Apple Pay and multiple payment gateways",
-      "Achieved 99.5% app stability rate with comprehensive testing"
+      "Built Geeta Furniture - Flutter e-commerce app (also compatible with iOS) with Firebase Auth, Firestore, Storage, and FCM notifications for real-time order updates",
+      "Developing native iOS application using SwiftUI & UIKit with MVVM architecture and Apple HIG guidelines, preparing for App Store deployment",
+      "Implemented real-time data synchronization using Firebase with offline-first architecture",
+      "Designed scalable feature-based architecture following clean architecture principles",
+      "Integrated Core Location and push notifications for enhanced user engagement"
     ],
-    skills: ["Swift", "SwiftUI", "Objective-C", "Firebase", "Core Data", "URLSession", "Xcode", "TestFlight"]
+    skills: ["Swift", "SwiftUI", "UIKit", "Flutter", "Dart", "Firebase", "Firestore", "Core Data", "REST APIs", "MVVM Architecture", "Clean Architecture"],
+    resumeUrl: iosResumePdf,
+    icon: "📱",
+    education: {
+      degree: "B.Tech. in Computer Science & Engineering",
+      institution: "Institute of Infrastructure, Technology, Research & Management (IITRAM)",
+      location: "Ahmedabad",
+      period: "2023 - 2027",
+      cgpa: "7.32 / 10",
+      focus: "Mobile Application Development, Data Structures & Algorithms, Object-Oriented Programming",
+      activities: "Hackathon Competitions, Software Development Projects, Data Analysis"
+    },
+    technicalSkills: {
+      mobile: ["iOS (Swift, SwiftUI, UIKit, Xcode)", "Flutter (Dart)"],
+      languages: ["Dart", "Swift", "Python", "JavaScript", "C++"],
+      backend: ["Firebase (Firestore, Auth, Storage, FCM)", "Supabase", "MySQL"],
+      architecture: ["MVVM", "MVC", "Clean Architecture", "REST APIs", "State Management"],
+      tools: ["Git", "GitHub", "Xcode", "Android Studio", "VS Code"]
+    },
+    projects: [
+      {
+        name: "Geeta Furniture",
+        type: "Flutter & iOS E-Commerce App",
+        description: "Built a cross-platform e-commerce app supporting product browsing, cart, wishlist, and order workflows",
+        details: [
+          "Implemented Firebase Auth, Firestore, Storage enabling secure authentication and real-time data synchronization",
+          "Integrated FCM notifications for live order updates and user engagement",
+          "Designed scalable feature-based architecture (assets / orders / admin / wishlists) following clean architecture principles",
+          "Compatible with both Flutter (Android/Web) and iOS platforms"
+        ]
+      },
+      {
+        name: "iOS Native Application",
+        type: "Native iOS App",
+        description: "Developing a native iOS application with modern Swift technologies",
+        details: [
+          "Implementing SwiftUI & UIKit with MVVM architecture and Apple HIG guidelines",
+          "Integrating Core Location for location-based features",
+          "Preparing the app for App Store deployment with comprehensive testing"
+        ],
+        status: "In Progress"
+      }
+    ],
+    achievements: [
+      {
+        title: "StellarNet Hackathon Winner",
+        description: "Built Cosmic Explorer using astronomical APIs, secured 1st place"
+      },
+      {
+        title: "NASA Space Apps Challenge",
+        description: "Global Participant - Developed a complete solution in a 48-hour global hackathon"
+      },
+      {
+        title: "SuPython 2025 National Hackathon",
+        description: "Delivered a functional prototype for user-centric solutions"
+      }
+    ],
+    certifications: [
+      {
+        name: "Meta iOS UI Development Specialization",
+        provider: "Meta (Coursera)",
+        skills: "UIKit, SwiftUI, iOS UI Design"
+      },
+      {
+        name: "Flutter Development Bootcamp",
+        provider: "Udemy",
+        skills: "Flutter, Dart, Firebase"
+      },
+      {
+        name: "Meta iOS Developer Professional Certificate",
+        provider: "Meta (Coursera)",
+        skills: "Swift, SwiftUI, UIKit, App Deployment"
+      }
+    ]
   },
   {
     id: 4,
