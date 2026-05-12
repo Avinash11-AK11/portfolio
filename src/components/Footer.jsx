@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Mail, Linkedin, Github, Phone, ArrowUp, Sparkles } from "lucide-react";
+import { Mail, Linkedin, Github, Phone, ArrowUp, Sparkles, Check } from "lucide-react";
 import { personalInfo } from "../data/certifications";
 
 function useInView(options = {}) {
@@ -36,8 +36,16 @@ const SOCIAL_LINKS = [
 function Footer() {
   const currentYear = new Date().getFullYear();
   const [rootRef, visible] = useInView();
+  const [copiedEmail, setCopiedEmail] = useState(false);
 
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text).then(() => {
+      setCopiedEmail(true);
+      setTimeout(() => setCopiedEmail(false), 2000);
+    });
+  };
 
   return (
     <footer
@@ -131,21 +139,31 @@ function Footer() {
               {SOCIAL_LINKS.map(({ Icon, label, href, external }) => (
                 <a
                   key={label}
-                  href={href}
+                  href={label === "Email" ? "#" : href}
+                  onClick={(e) => {
+                    if (label === "Email") {
+                      e.preventDefault();
+                      copyToClipboard(personalInfo.email);
+                    }
+                  }}
                   target={external ? "_blank" : undefined}
                   rel={external ? "noreferrer" : undefined}
-                  className="footer-contact-btn group flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-300"
+                  className="footer-contact-btn group flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-300 cursor-pointer"
                   style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)" }}
                 >
                   <div className="footer-icon-wrap w-8 h-8 rounded-md flex items-center justify-center flex-shrink-0 transition-all duration-300"
                     style={{ background: "rgba(205,183,127,0.15)" }}
                   >
-                    <Icon size={15} style={{ color: "#CDB77F" }} />
+                    {label === "Email" && copiedEmail ? (
+                      <Check size={15} style={{ color: "#CDB77F" }} />
+                    ) : (
+                      <Icon size={15} style={{ color: "#CDB77F" }} />
+                    )}
                   </div>
                   <div className="min-w-0">
                     <p className="text-xs text-[#CDB77F]/80 uppercase tracking-wide font-medium leading-none mb-0.5">{label}</p>
                     <p className="text-sm text-[#EDE3CF]/80 truncate leading-none">
-                      {label === "Email"   ? personalInfo.email :
+                      {label === "Email"   ? (copiedEmail ? "Copied!" : personalInfo.email) :
                        label === "Call"    ? personalInfo.phone :
                        label === "LinkedIn"? "linkedin.com/in/avinash-chavda" :
                                             "github.com/Avinash11-AK11"}
@@ -198,7 +216,7 @@ function Footer() {
 
       </div>
 
-      <style jsx>{`
+      <style>{`
         .footer-monogram {
           box-shadow: 0 0 18px rgba(205,183,127,0.35), inset 0 1px 0 rgba(255,255,255,0.3);
           font-family: serif;
